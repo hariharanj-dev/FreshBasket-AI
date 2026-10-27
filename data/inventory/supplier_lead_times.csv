@@ -1,0 +1,1783 @@
+store_nbr,family,supplier_lead_time_days,supplier_name
+1,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+1,BABY CARE,8,Andina Infant Care S.A.
+1,BEAUTY,10,Quito Cosmetics & Personal
+1,BEVERAGES,5,Embotelladora Andina S.A.
+1,BOOKS,18,Editorial Panamericana
+1,BREAD/BAKERY,3,Panaderia Nacional Central
+1,CELEBRATION,12,Fiesta & Articulos S.A.
+1,CLEANING,7,Soluciones de Limpieza Quimica
+1,DAIRY,3,Lacteos Cotopaxi C.A.
+1,DELI,4,Embutidos Pichincha S.A.
+1,EGGS,3,Granja Avicola San Jose
+1,FROZEN FOODS,6,Congelados del Pacifico
+1,GROCERY I,5,Distribuidora Central de Abarrotes
+1,GROCERY II,6,Importadora Alimentos Andinos
+1,HARDWARE,15,Ferreteria Industrial del Norte
+1,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+1,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+1,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+1,HOME CARE,8,Cuidado del Hogar Continental
+1,LADIESWEAR,21,Textiles & Confecciones Quito
+1,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+1,LINGERIE,21,Textiles & Confecciones Quito
+1,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+1,MAGAZINES,14,Distribuidora Prensa Andina
+1,MEATS,2,Carnes del Valle C.A.
+1,PERSONAL CARE,7,Higiene & Bienestar S.A.
+1,PET SUPPLIES,9,Nutricion Animal Andina
+1,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+1,POULTRY,2,Avicola del Sol C.A.
+1,PREPARED FOODS,2,Cocina Lista Industrial
+1,PRODUCE,2,Agricola Sierra y Costa S.A.
+1,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+1,SEAFOOD,2,Pescaderia Mar del Sur
+2,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+2,BABY CARE,9,Andina Infant Care S.A.
+2,BEAUTY,11,Quito Cosmetics & Personal
+2,BEVERAGES,6,Embotelladora Andina S.A.
+2,BOOKS,19,Editorial Panamericana
+2,BREAD/BAKERY,4,Panaderia Nacional Central
+2,CELEBRATION,13,Fiesta & Articulos S.A.
+2,CLEANING,8,Soluciones de Limpieza Quimica
+2,DAIRY,4,Lacteos Cotopaxi C.A.
+2,DELI,5,Embutidos Pichincha S.A.
+2,EGGS,4,Granja Avicola San Jose
+2,FROZEN FOODS,7,Congelados del Pacifico
+2,GROCERY I,6,Distribuidora Central de Abarrotes
+2,GROCERY II,7,Importadora Alimentos Andinos
+2,HARDWARE,16,Ferreteria Industrial del Norte
+2,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+2,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+2,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+2,HOME CARE,9,Cuidado del Hogar Continental
+2,LADIESWEAR,22,Textiles & Confecciones Quito
+2,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+2,LINGERIE,22,Textiles & Confecciones Quito
+2,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+2,MAGAZINES,15,Distribuidora Prensa Andina
+2,MEATS,3,Carnes del Valle C.A.
+2,PERSONAL CARE,8,Higiene & Bienestar S.A.
+2,PET SUPPLIES,10,Nutricion Animal Andina
+2,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+2,POULTRY,3,Avicola del Sol C.A.
+2,PREPARED FOODS,3,Cocina Lista Industrial
+2,PRODUCE,3,Agricola Sierra y Costa S.A.
+2,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+2,SEAFOOD,3,Pescaderia Mar del Sur
+3,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+3,BABY CARE,7,Andina Infant Care S.A.
+3,BEAUTY,9,Quito Cosmetics & Personal
+3,BEVERAGES,4,Embotelladora Andina S.A.
+3,BOOKS,17,Editorial Panamericana
+3,BREAD/BAKERY,2,Panaderia Nacional Central
+3,CELEBRATION,11,Fiesta & Articulos S.A.
+3,CLEANING,6,Soluciones de Limpieza Quimica
+3,DAIRY,2,Lacteos Cotopaxi C.A.
+3,DELI,3,Embutidos Pichincha S.A.
+3,EGGS,2,Granja Avicola San Jose
+3,FROZEN FOODS,5,Congelados del Pacifico
+3,GROCERY I,4,Distribuidora Central de Abarrotes
+3,GROCERY II,5,Importadora Alimentos Andinos
+3,HARDWARE,14,Ferreteria Industrial del Norte
+3,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+3,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+3,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+3,HOME CARE,7,Cuidado del Hogar Continental
+3,LADIESWEAR,20,Textiles & Confecciones Quito
+3,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+3,LINGERIE,20,Textiles & Confecciones Quito
+3,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+3,MAGAZINES,13,Distribuidora Prensa Andina
+3,MEATS,1,Carnes del Valle C.A.
+3,PERSONAL CARE,6,Higiene & Bienestar S.A.
+3,PET SUPPLIES,8,Nutricion Animal Andina
+3,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+3,POULTRY,1,Avicola del Sol C.A.
+3,PREPARED FOODS,1,Cocina Lista Industrial
+3,PRODUCE,1,Agricola Sierra y Costa S.A.
+3,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+3,SEAFOOD,1,Pescaderia Mar del Sur
+4,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+4,BABY CARE,8,Andina Infant Care S.A.
+4,BEAUTY,10,Quito Cosmetics & Personal
+4,BEVERAGES,5,Embotelladora Andina S.A.
+4,BOOKS,18,Editorial Panamericana
+4,BREAD/BAKERY,3,Panaderia Nacional Central
+4,CELEBRATION,12,Fiesta & Articulos S.A.
+4,CLEANING,7,Soluciones de Limpieza Quimica
+4,DAIRY,3,Lacteos Cotopaxi C.A.
+4,DELI,4,Embutidos Pichincha S.A.
+4,EGGS,3,Granja Avicola San Jose
+4,FROZEN FOODS,6,Congelados del Pacifico
+4,GROCERY I,5,Distribuidora Central de Abarrotes
+4,GROCERY II,6,Importadora Alimentos Andinos
+4,HARDWARE,15,Ferreteria Industrial del Norte
+4,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+4,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+4,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+4,HOME CARE,8,Cuidado del Hogar Continental
+4,LADIESWEAR,21,Textiles & Confecciones Quito
+4,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+4,LINGERIE,21,Textiles & Confecciones Quito
+4,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+4,MAGAZINES,14,Distribuidora Prensa Andina
+4,MEATS,2,Carnes del Valle C.A.
+4,PERSONAL CARE,7,Higiene & Bienestar S.A.
+4,PET SUPPLIES,9,Nutricion Animal Andina
+4,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+4,POULTRY,2,Avicola del Sol C.A.
+4,PREPARED FOODS,2,Cocina Lista Industrial
+4,PRODUCE,2,Agricola Sierra y Costa S.A.
+4,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+4,SEAFOOD,2,Pescaderia Mar del Sur
+5,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+5,BABY CARE,9,Andina Infant Care S.A.
+5,BEAUTY,11,Quito Cosmetics & Personal
+5,BEVERAGES,6,Embotelladora Andina S.A.
+5,BOOKS,19,Editorial Panamericana
+5,BREAD/BAKERY,4,Panaderia Nacional Central
+5,CELEBRATION,13,Fiesta & Articulos S.A.
+5,CLEANING,8,Soluciones de Limpieza Quimica
+5,DAIRY,4,Lacteos Cotopaxi C.A.
+5,DELI,5,Embutidos Pichincha S.A.
+5,EGGS,4,Granja Avicola San Jose
+5,FROZEN FOODS,7,Congelados del Pacifico
+5,GROCERY I,6,Distribuidora Central de Abarrotes
+5,GROCERY II,7,Importadora Alimentos Andinos
+5,HARDWARE,16,Ferreteria Industrial del Norte
+5,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+5,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+5,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+5,HOME CARE,9,Cuidado del Hogar Continental
+5,LADIESWEAR,22,Textiles & Confecciones Quito
+5,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+5,LINGERIE,22,Textiles & Confecciones Quito
+5,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+5,MAGAZINES,15,Distribuidora Prensa Andina
+5,MEATS,3,Carnes del Valle C.A.
+5,PERSONAL CARE,8,Higiene & Bienestar S.A.
+5,PET SUPPLIES,10,Nutricion Animal Andina
+5,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+5,POULTRY,3,Avicola del Sol C.A.
+5,PREPARED FOODS,3,Cocina Lista Industrial
+5,PRODUCE,3,Agricola Sierra y Costa S.A.
+5,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+5,SEAFOOD,3,Pescaderia Mar del Sur
+6,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+6,BABY CARE,7,Andina Infant Care S.A.
+6,BEAUTY,9,Quito Cosmetics & Personal
+6,BEVERAGES,4,Embotelladora Andina S.A.
+6,BOOKS,17,Editorial Panamericana
+6,BREAD/BAKERY,2,Panaderia Nacional Central
+6,CELEBRATION,11,Fiesta & Articulos S.A.
+6,CLEANING,6,Soluciones de Limpieza Quimica
+6,DAIRY,2,Lacteos Cotopaxi C.A.
+6,DELI,3,Embutidos Pichincha S.A.
+6,EGGS,2,Granja Avicola San Jose
+6,FROZEN FOODS,5,Congelados del Pacifico
+6,GROCERY I,4,Distribuidora Central de Abarrotes
+6,GROCERY II,5,Importadora Alimentos Andinos
+6,HARDWARE,14,Ferreteria Industrial del Norte
+6,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+6,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+6,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+6,HOME CARE,7,Cuidado del Hogar Continental
+6,LADIESWEAR,20,Textiles & Confecciones Quito
+6,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+6,LINGERIE,20,Textiles & Confecciones Quito
+6,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+6,MAGAZINES,13,Distribuidora Prensa Andina
+6,MEATS,1,Carnes del Valle C.A.
+6,PERSONAL CARE,6,Higiene & Bienestar S.A.
+6,PET SUPPLIES,8,Nutricion Animal Andina
+6,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+6,POULTRY,1,Avicola del Sol C.A.
+6,PREPARED FOODS,1,Cocina Lista Industrial
+6,PRODUCE,1,Agricola Sierra y Costa S.A.
+6,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+6,SEAFOOD,1,Pescaderia Mar del Sur
+7,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+7,BABY CARE,8,Andina Infant Care S.A.
+7,BEAUTY,10,Quito Cosmetics & Personal
+7,BEVERAGES,5,Embotelladora Andina S.A.
+7,BOOKS,18,Editorial Panamericana
+7,BREAD/BAKERY,3,Panaderia Nacional Central
+7,CELEBRATION,12,Fiesta & Articulos S.A.
+7,CLEANING,7,Soluciones de Limpieza Quimica
+7,DAIRY,3,Lacteos Cotopaxi C.A.
+7,DELI,4,Embutidos Pichincha S.A.
+7,EGGS,3,Granja Avicola San Jose
+7,FROZEN FOODS,6,Congelados del Pacifico
+7,GROCERY I,5,Distribuidora Central de Abarrotes
+7,GROCERY II,6,Importadora Alimentos Andinos
+7,HARDWARE,15,Ferreteria Industrial del Norte
+7,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+7,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+7,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+7,HOME CARE,8,Cuidado del Hogar Continental
+7,LADIESWEAR,21,Textiles & Confecciones Quito
+7,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+7,LINGERIE,21,Textiles & Confecciones Quito
+7,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+7,MAGAZINES,14,Distribuidora Prensa Andina
+7,MEATS,2,Carnes del Valle C.A.
+7,PERSONAL CARE,7,Higiene & Bienestar S.A.
+7,PET SUPPLIES,9,Nutricion Animal Andina
+7,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+7,POULTRY,2,Avicola del Sol C.A.
+7,PREPARED FOODS,2,Cocina Lista Industrial
+7,PRODUCE,2,Agricola Sierra y Costa S.A.
+7,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+7,SEAFOOD,2,Pescaderia Mar del Sur
+8,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+8,BABY CARE,9,Andina Infant Care S.A.
+8,BEAUTY,11,Quito Cosmetics & Personal
+8,BEVERAGES,6,Embotelladora Andina S.A.
+8,BOOKS,19,Editorial Panamericana
+8,BREAD/BAKERY,4,Panaderia Nacional Central
+8,CELEBRATION,13,Fiesta & Articulos S.A.
+8,CLEANING,8,Soluciones de Limpieza Quimica
+8,DAIRY,4,Lacteos Cotopaxi C.A.
+8,DELI,5,Embutidos Pichincha S.A.
+8,EGGS,4,Granja Avicola San Jose
+8,FROZEN FOODS,7,Congelados del Pacifico
+8,GROCERY I,6,Distribuidora Central de Abarrotes
+8,GROCERY II,7,Importadora Alimentos Andinos
+8,HARDWARE,16,Ferreteria Industrial del Norte
+8,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+8,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+8,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+8,HOME CARE,9,Cuidado del Hogar Continental
+8,LADIESWEAR,22,Textiles & Confecciones Quito
+8,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+8,LINGERIE,22,Textiles & Confecciones Quito
+8,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+8,MAGAZINES,15,Distribuidora Prensa Andina
+8,MEATS,3,Carnes del Valle C.A.
+8,PERSONAL CARE,8,Higiene & Bienestar S.A.
+8,PET SUPPLIES,10,Nutricion Animal Andina
+8,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+8,POULTRY,3,Avicola del Sol C.A.
+8,PREPARED FOODS,3,Cocina Lista Industrial
+8,PRODUCE,3,Agricola Sierra y Costa S.A.
+8,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+8,SEAFOOD,3,Pescaderia Mar del Sur
+9,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+9,BABY CARE,7,Andina Infant Care S.A.
+9,BEAUTY,9,Quito Cosmetics & Personal
+9,BEVERAGES,4,Embotelladora Andina S.A.
+9,BOOKS,17,Editorial Panamericana
+9,BREAD/BAKERY,2,Panaderia Nacional Central
+9,CELEBRATION,11,Fiesta & Articulos S.A.
+9,CLEANING,6,Soluciones de Limpieza Quimica
+9,DAIRY,2,Lacteos Cotopaxi C.A.
+9,DELI,3,Embutidos Pichincha S.A.
+9,EGGS,2,Granja Avicola San Jose
+9,FROZEN FOODS,5,Congelados del Pacifico
+9,GROCERY I,4,Distribuidora Central de Abarrotes
+9,GROCERY II,5,Importadora Alimentos Andinos
+9,HARDWARE,14,Ferreteria Industrial del Norte
+9,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+9,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+9,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+9,HOME CARE,7,Cuidado del Hogar Continental
+9,LADIESWEAR,20,Textiles & Confecciones Quito
+9,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+9,LINGERIE,20,Textiles & Confecciones Quito
+9,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+9,MAGAZINES,13,Distribuidora Prensa Andina
+9,MEATS,1,Carnes del Valle C.A.
+9,PERSONAL CARE,6,Higiene & Bienestar S.A.
+9,PET SUPPLIES,8,Nutricion Animal Andina
+9,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+9,POULTRY,1,Avicola del Sol C.A.
+9,PREPARED FOODS,1,Cocina Lista Industrial
+9,PRODUCE,1,Agricola Sierra y Costa S.A.
+9,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+9,SEAFOOD,1,Pescaderia Mar del Sur
+10,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+10,BABY CARE,8,Andina Infant Care S.A.
+10,BEAUTY,10,Quito Cosmetics & Personal
+10,BEVERAGES,5,Embotelladora Andina S.A.
+10,BOOKS,18,Editorial Panamericana
+10,BREAD/BAKERY,3,Panaderia Nacional Central
+10,CELEBRATION,12,Fiesta & Articulos S.A.
+10,CLEANING,7,Soluciones de Limpieza Quimica
+10,DAIRY,3,Lacteos Cotopaxi C.A.
+10,DELI,4,Embutidos Pichincha S.A.
+10,EGGS,3,Granja Avicola San Jose
+10,FROZEN FOODS,6,Congelados del Pacifico
+10,GROCERY I,5,Distribuidora Central de Abarrotes
+10,GROCERY II,6,Importadora Alimentos Andinos
+10,HARDWARE,15,Ferreteria Industrial del Norte
+10,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+10,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+10,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+10,HOME CARE,8,Cuidado del Hogar Continental
+10,LADIESWEAR,21,Textiles & Confecciones Quito
+10,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+10,LINGERIE,21,Textiles & Confecciones Quito
+10,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+10,MAGAZINES,14,Distribuidora Prensa Andina
+10,MEATS,2,Carnes del Valle C.A.
+10,PERSONAL CARE,7,Higiene & Bienestar S.A.
+10,PET SUPPLIES,9,Nutricion Animal Andina
+10,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+10,POULTRY,2,Avicola del Sol C.A.
+10,PREPARED FOODS,2,Cocina Lista Industrial
+10,PRODUCE,2,Agricola Sierra y Costa S.A.
+10,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+10,SEAFOOD,2,Pescaderia Mar del Sur
+11,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+11,BABY CARE,9,Andina Infant Care S.A.
+11,BEAUTY,11,Quito Cosmetics & Personal
+11,BEVERAGES,6,Embotelladora Andina S.A.
+11,BOOKS,19,Editorial Panamericana
+11,BREAD/BAKERY,4,Panaderia Nacional Central
+11,CELEBRATION,13,Fiesta & Articulos S.A.
+11,CLEANING,8,Soluciones de Limpieza Quimica
+11,DAIRY,4,Lacteos Cotopaxi C.A.
+11,DELI,5,Embutidos Pichincha S.A.
+11,EGGS,4,Granja Avicola San Jose
+11,FROZEN FOODS,7,Congelados del Pacifico
+11,GROCERY I,6,Distribuidora Central de Abarrotes
+11,GROCERY II,7,Importadora Alimentos Andinos
+11,HARDWARE,16,Ferreteria Industrial del Norte
+11,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+11,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+11,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+11,HOME CARE,9,Cuidado del Hogar Continental
+11,LADIESWEAR,22,Textiles & Confecciones Quito
+11,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+11,LINGERIE,22,Textiles & Confecciones Quito
+11,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+11,MAGAZINES,15,Distribuidora Prensa Andina
+11,MEATS,3,Carnes del Valle C.A.
+11,PERSONAL CARE,8,Higiene & Bienestar S.A.
+11,PET SUPPLIES,10,Nutricion Animal Andina
+11,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+11,POULTRY,3,Avicola del Sol C.A.
+11,PREPARED FOODS,3,Cocina Lista Industrial
+11,PRODUCE,3,Agricola Sierra y Costa S.A.
+11,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+11,SEAFOOD,3,Pescaderia Mar del Sur
+12,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+12,BABY CARE,7,Andina Infant Care S.A.
+12,BEAUTY,9,Quito Cosmetics & Personal
+12,BEVERAGES,4,Embotelladora Andina S.A.
+12,BOOKS,17,Editorial Panamericana
+12,BREAD/BAKERY,2,Panaderia Nacional Central
+12,CELEBRATION,11,Fiesta & Articulos S.A.
+12,CLEANING,6,Soluciones de Limpieza Quimica
+12,DAIRY,2,Lacteos Cotopaxi C.A.
+12,DELI,3,Embutidos Pichincha S.A.
+12,EGGS,2,Granja Avicola San Jose
+12,FROZEN FOODS,5,Congelados del Pacifico
+12,GROCERY I,4,Distribuidora Central de Abarrotes
+12,GROCERY II,5,Importadora Alimentos Andinos
+12,HARDWARE,14,Ferreteria Industrial del Norte
+12,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+12,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+12,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+12,HOME CARE,7,Cuidado del Hogar Continental
+12,LADIESWEAR,20,Textiles & Confecciones Quito
+12,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+12,LINGERIE,20,Textiles & Confecciones Quito
+12,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+12,MAGAZINES,13,Distribuidora Prensa Andina
+12,MEATS,1,Carnes del Valle C.A.
+12,PERSONAL CARE,6,Higiene & Bienestar S.A.
+12,PET SUPPLIES,8,Nutricion Animal Andina
+12,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+12,POULTRY,1,Avicola del Sol C.A.
+12,PREPARED FOODS,1,Cocina Lista Industrial
+12,PRODUCE,1,Agricola Sierra y Costa S.A.
+12,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+12,SEAFOOD,1,Pescaderia Mar del Sur
+13,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+13,BABY CARE,8,Andina Infant Care S.A.
+13,BEAUTY,10,Quito Cosmetics & Personal
+13,BEVERAGES,5,Embotelladora Andina S.A.
+13,BOOKS,18,Editorial Panamericana
+13,BREAD/BAKERY,3,Panaderia Nacional Central
+13,CELEBRATION,12,Fiesta & Articulos S.A.
+13,CLEANING,7,Soluciones de Limpieza Quimica
+13,DAIRY,3,Lacteos Cotopaxi C.A.
+13,DELI,4,Embutidos Pichincha S.A.
+13,EGGS,3,Granja Avicola San Jose
+13,FROZEN FOODS,6,Congelados del Pacifico
+13,GROCERY I,5,Distribuidora Central de Abarrotes
+13,GROCERY II,6,Importadora Alimentos Andinos
+13,HARDWARE,15,Ferreteria Industrial del Norte
+13,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+13,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+13,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+13,HOME CARE,8,Cuidado del Hogar Continental
+13,LADIESWEAR,21,Textiles & Confecciones Quito
+13,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+13,LINGERIE,21,Textiles & Confecciones Quito
+13,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+13,MAGAZINES,14,Distribuidora Prensa Andina
+13,MEATS,2,Carnes del Valle C.A.
+13,PERSONAL CARE,7,Higiene & Bienestar S.A.
+13,PET SUPPLIES,9,Nutricion Animal Andina
+13,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+13,POULTRY,2,Avicola del Sol C.A.
+13,PREPARED FOODS,2,Cocina Lista Industrial
+13,PRODUCE,2,Agricola Sierra y Costa S.A.
+13,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+13,SEAFOOD,2,Pescaderia Mar del Sur
+14,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+14,BABY CARE,9,Andina Infant Care S.A.
+14,BEAUTY,11,Quito Cosmetics & Personal
+14,BEVERAGES,6,Embotelladora Andina S.A.
+14,BOOKS,19,Editorial Panamericana
+14,BREAD/BAKERY,4,Panaderia Nacional Central
+14,CELEBRATION,13,Fiesta & Articulos S.A.
+14,CLEANING,8,Soluciones de Limpieza Quimica
+14,DAIRY,4,Lacteos Cotopaxi C.A.
+14,DELI,5,Embutidos Pichincha S.A.
+14,EGGS,4,Granja Avicola San Jose
+14,FROZEN FOODS,7,Congelados del Pacifico
+14,GROCERY I,6,Distribuidora Central de Abarrotes
+14,GROCERY II,7,Importadora Alimentos Andinos
+14,HARDWARE,16,Ferreteria Industrial del Norte
+14,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+14,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+14,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+14,HOME CARE,9,Cuidado del Hogar Continental
+14,LADIESWEAR,22,Textiles & Confecciones Quito
+14,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+14,LINGERIE,22,Textiles & Confecciones Quito
+14,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+14,MAGAZINES,15,Distribuidora Prensa Andina
+14,MEATS,3,Carnes del Valle C.A.
+14,PERSONAL CARE,8,Higiene & Bienestar S.A.
+14,PET SUPPLIES,10,Nutricion Animal Andina
+14,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+14,POULTRY,3,Avicola del Sol C.A.
+14,PREPARED FOODS,3,Cocina Lista Industrial
+14,PRODUCE,3,Agricola Sierra y Costa S.A.
+14,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+14,SEAFOOD,3,Pescaderia Mar del Sur
+15,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+15,BABY CARE,7,Andina Infant Care S.A.
+15,BEAUTY,9,Quito Cosmetics & Personal
+15,BEVERAGES,4,Embotelladora Andina S.A.
+15,BOOKS,17,Editorial Panamericana
+15,BREAD/BAKERY,2,Panaderia Nacional Central
+15,CELEBRATION,11,Fiesta & Articulos S.A.
+15,CLEANING,6,Soluciones de Limpieza Quimica
+15,DAIRY,2,Lacteos Cotopaxi C.A.
+15,DELI,3,Embutidos Pichincha S.A.
+15,EGGS,2,Granja Avicola San Jose
+15,FROZEN FOODS,5,Congelados del Pacifico
+15,GROCERY I,4,Distribuidora Central de Abarrotes
+15,GROCERY II,5,Importadora Alimentos Andinos
+15,HARDWARE,14,Ferreteria Industrial del Norte
+15,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+15,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+15,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+15,HOME CARE,7,Cuidado del Hogar Continental
+15,LADIESWEAR,20,Textiles & Confecciones Quito
+15,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+15,LINGERIE,20,Textiles & Confecciones Quito
+15,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+15,MAGAZINES,13,Distribuidora Prensa Andina
+15,MEATS,1,Carnes del Valle C.A.
+15,PERSONAL CARE,6,Higiene & Bienestar S.A.
+15,PET SUPPLIES,8,Nutricion Animal Andina
+15,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+15,POULTRY,1,Avicola del Sol C.A.
+15,PREPARED FOODS,1,Cocina Lista Industrial
+15,PRODUCE,1,Agricola Sierra y Costa S.A.
+15,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+15,SEAFOOD,1,Pescaderia Mar del Sur
+16,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+16,BABY CARE,8,Andina Infant Care S.A.
+16,BEAUTY,10,Quito Cosmetics & Personal
+16,BEVERAGES,5,Embotelladora Andina S.A.
+16,BOOKS,18,Editorial Panamericana
+16,BREAD/BAKERY,3,Panaderia Nacional Central
+16,CELEBRATION,12,Fiesta & Articulos S.A.
+16,CLEANING,7,Soluciones de Limpieza Quimica
+16,DAIRY,3,Lacteos Cotopaxi C.A.
+16,DELI,4,Embutidos Pichincha S.A.
+16,EGGS,3,Granja Avicola San Jose
+16,FROZEN FOODS,6,Congelados del Pacifico
+16,GROCERY I,5,Distribuidora Central de Abarrotes
+16,GROCERY II,6,Importadora Alimentos Andinos
+16,HARDWARE,15,Ferreteria Industrial del Norte
+16,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+16,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+16,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+16,HOME CARE,8,Cuidado del Hogar Continental
+16,LADIESWEAR,21,Textiles & Confecciones Quito
+16,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+16,LINGERIE,21,Textiles & Confecciones Quito
+16,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+16,MAGAZINES,14,Distribuidora Prensa Andina
+16,MEATS,2,Carnes del Valle C.A.
+16,PERSONAL CARE,7,Higiene & Bienestar S.A.
+16,PET SUPPLIES,9,Nutricion Animal Andina
+16,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+16,POULTRY,2,Avicola del Sol C.A.
+16,PREPARED FOODS,2,Cocina Lista Industrial
+16,PRODUCE,2,Agricola Sierra y Costa S.A.
+16,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+16,SEAFOOD,2,Pescaderia Mar del Sur
+17,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+17,BABY CARE,9,Andina Infant Care S.A.
+17,BEAUTY,11,Quito Cosmetics & Personal
+17,BEVERAGES,6,Embotelladora Andina S.A.
+17,BOOKS,19,Editorial Panamericana
+17,BREAD/BAKERY,4,Panaderia Nacional Central
+17,CELEBRATION,13,Fiesta & Articulos S.A.
+17,CLEANING,8,Soluciones de Limpieza Quimica
+17,DAIRY,4,Lacteos Cotopaxi C.A.
+17,DELI,5,Embutidos Pichincha S.A.
+17,EGGS,4,Granja Avicola San Jose
+17,FROZEN FOODS,7,Congelados del Pacifico
+17,GROCERY I,6,Distribuidora Central de Abarrotes
+17,GROCERY II,7,Importadora Alimentos Andinos
+17,HARDWARE,16,Ferreteria Industrial del Norte
+17,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+17,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+17,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+17,HOME CARE,9,Cuidado del Hogar Continental
+17,LADIESWEAR,22,Textiles & Confecciones Quito
+17,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+17,LINGERIE,22,Textiles & Confecciones Quito
+17,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+17,MAGAZINES,15,Distribuidora Prensa Andina
+17,MEATS,3,Carnes del Valle C.A.
+17,PERSONAL CARE,8,Higiene & Bienestar S.A.
+17,PET SUPPLIES,10,Nutricion Animal Andina
+17,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+17,POULTRY,3,Avicola del Sol C.A.
+17,PREPARED FOODS,3,Cocina Lista Industrial
+17,PRODUCE,3,Agricola Sierra y Costa S.A.
+17,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+17,SEAFOOD,3,Pescaderia Mar del Sur
+18,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+18,BABY CARE,7,Andina Infant Care S.A.
+18,BEAUTY,9,Quito Cosmetics & Personal
+18,BEVERAGES,4,Embotelladora Andina S.A.
+18,BOOKS,17,Editorial Panamericana
+18,BREAD/BAKERY,2,Panaderia Nacional Central
+18,CELEBRATION,11,Fiesta & Articulos S.A.
+18,CLEANING,6,Soluciones de Limpieza Quimica
+18,DAIRY,2,Lacteos Cotopaxi C.A.
+18,DELI,3,Embutidos Pichincha S.A.
+18,EGGS,2,Granja Avicola San Jose
+18,FROZEN FOODS,5,Congelados del Pacifico
+18,GROCERY I,4,Distribuidora Central de Abarrotes
+18,GROCERY II,5,Importadora Alimentos Andinos
+18,HARDWARE,14,Ferreteria Industrial del Norte
+18,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+18,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+18,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+18,HOME CARE,7,Cuidado del Hogar Continental
+18,LADIESWEAR,20,Textiles & Confecciones Quito
+18,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+18,LINGERIE,20,Textiles & Confecciones Quito
+18,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+18,MAGAZINES,13,Distribuidora Prensa Andina
+18,MEATS,1,Carnes del Valle C.A.
+18,PERSONAL CARE,6,Higiene & Bienestar S.A.
+18,PET SUPPLIES,8,Nutricion Animal Andina
+18,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+18,POULTRY,1,Avicola del Sol C.A.
+18,PREPARED FOODS,1,Cocina Lista Industrial
+18,PRODUCE,1,Agricola Sierra y Costa S.A.
+18,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+18,SEAFOOD,1,Pescaderia Mar del Sur
+19,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+19,BABY CARE,8,Andina Infant Care S.A.
+19,BEAUTY,10,Quito Cosmetics & Personal
+19,BEVERAGES,5,Embotelladora Andina S.A.
+19,BOOKS,18,Editorial Panamericana
+19,BREAD/BAKERY,3,Panaderia Nacional Central
+19,CELEBRATION,12,Fiesta & Articulos S.A.
+19,CLEANING,7,Soluciones de Limpieza Quimica
+19,DAIRY,3,Lacteos Cotopaxi C.A.
+19,DELI,4,Embutidos Pichincha S.A.
+19,EGGS,3,Granja Avicola San Jose
+19,FROZEN FOODS,6,Congelados del Pacifico
+19,GROCERY I,5,Distribuidora Central de Abarrotes
+19,GROCERY II,6,Importadora Alimentos Andinos
+19,HARDWARE,15,Ferreteria Industrial del Norte
+19,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+19,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+19,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+19,HOME CARE,8,Cuidado del Hogar Continental
+19,LADIESWEAR,21,Textiles & Confecciones Quito
+19,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+19,LINGERIE,21,Textiles & Confecciones Quito
+19,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+19,MAGAZINES,14,Distribuidora Prensa Andina
+19,MEATS,2,Carnes del Valle C.A.
+19,PERSONAL CARE,7,Higiene & Bienestar S.A.
+19,PET SUPPLIES,9,Nutricion Animal Andina
+19,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+19,POULTRY,2,Avicola del Sol C.A.
+19,PREPARED FOODS,2,Cocina Lista Industrial
+19,PRODUCE,2,Agricola Sierra y Costa S.A.
+19,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+19,SEAFOOD,2,Pescaderia Mar del Sur
+20,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+20,BABY CARE,9,Andina Infant Care S.A.
+20,BEAUTY,11,Quito Cosmetics & Personal
+20,BEVERAGES,6,Embotelladora Andina S.A.
+20,BOOKS,19,Editorial Panamericana
+20,BREAD/BAKERY,4,Panaderia Nacional Central
+20,CELEBRATION,13,Fiesta & Articulos S.A.
+20,CLEANING,8,Soluciones de Limpieza Quimica
+20,DAIRY,4,Lacteos Cotopaxi C.A.
+20,DELI,5,Embutidos Pichincha S.A.
+20,EGGS,4,Granja Avicola San Jose
+20,FROZEN FOODS,7,Congelados del Pacifico
+20,GROCERY I,6,Distribuidora Central de Abarrotes
+20,GROCERY II,7,Importadora Alimentos Andinos
+20,HARDWARE,16,Ferreteria Industrial del Norte
+20,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+20,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+20,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+20,HOME CARE,9,Cuidado del Hogar Continental
+20,LADIESWEAR,22,Textiles & Confecciones Quito
+20,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+20,LINGERIE,22,Textiles & Confecciones Quito
+20,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+20,MAGAZINES,15,Distribuidora Prensa Andina
+20,MEATS,3,Carnes del Valle C.A.
+20,PERSONAL CARE,8,Higiene & Bienestar S.A.
+20,PET SUPPLIES,10,Nutricion Animal Andina
+20,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+20,POULTRY,3,Avicola del Sol C.A.
+20,PREPARED FOODS,3,Cocina Lista Industrial
+20,PRODUCE,3,Agricola Sierra y Costa S.A.
+20,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+20,SEAFOOD,3,Pescaderia Mar del Sur
+21,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+21,BABY CARE,7,Andina Infant Care S.A.
+21,BEAUTY,9,Quito Cosmetics & Personal
+21,BEVERAGES,4,Embotelladora Andina S.A.
+21,BOOKS,17,Editorial Panamericana
+21,BREAD/BAKERY,2,Panaderia Nacional Central
+21,CELEBRATION,11,Fiesta & Articulos S.A.
+21,CLEANING,6,Soluciones de Limpieza Quimica
+21,DAIRY,2,Lacteos Cotopaxi C.A.
+21,DELI,3,Embutidos Pichincha S.A.
+21,EGGS,2,Granja Avicola San Jose
+21,FROZEN FOODS,5,Congelados del Pacifico
+21,GROCERY I,4,Distribuidora Central de Abarrotes
+21,GROCERY II,5,Importadora Alimentos Andinos
+21,HARDWARE,14,Ferreteria Industrial del Norte
+21,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+21,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+21,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+21,HOME CARE,7,Cuidado del Hogar Continental
+21,LADIESWEAR,20,Textiles & Confecciones Quito
+21,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+21,LINGERIE,20,Textiles & Confecciones Quito
+21,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+21,MAGAZINES,13,Distribuidora Prensa Andina
+21,MEATS,1,Carnes del Valle C.A.
+21,PERSONAL CARE,6,Higiene & Bienestar S.A.
+21,PET SUPPLIES,8,Nutricion Animal Andina
+21,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+21,POULTRY,1,Avicola del Sol C.A.
+21,PREPARED FOODS,1,Cocina Lista Industrial
+21,PRODUCE,1,Agricola Sierra y Costa S.A.
+21,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+21,SEAFOOD,1,Pescaderia Mar del Sur
+22,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+22,BABY CARE,8,Andina Infant Care S.A.
+22,BEAUTY,10,Quito Cosmetics & Personal
+22,BEVERAGES,5,Embotelladora Andina S.A.
+22,BOOKS,18,Editorial Panamericana
+22,BREAD/BAKERY,3,Panaderia Nacional Central
+22,CELEBRATION,12,Fiesta & Articulos S.A.
+22,CLEANING,7,Soluciones de Limpieza Quimica
+22,DAIRY,3,Lacteos Cotopaxi C.A.
+22,DELI,4,Embutidos Pichincha S.A.
+22,EGGS,3,Granja Avicola San Jose
+22,FROZEN FOODS,6,Congelados del Pacifico
+22,GROCERY I,5,Distribuidora Central de Abarrotes
+22,GROCERY II,6,Importadora Alimentos Andinos
+22,HARDWARE,15,Ferreteria Industrial del Norte
+22,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+22,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+22,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+22,HOME CARE,8,Cuidado del Hogar Continental
+22,LADIESWEAR,21,Textiles & Confecciones Quito
+22,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+22,LINGERIE,21,Textiles & Confecciones Quito
+22,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+22,MAGAZINES,14,Distribuidora Prensa Andina
+22,MEATS,2,Carnes del Valle C.A.
+22,PERSONAL CARE,7,Higiene & Bienestar S.A.
+22,PET SUPPLIES,9,Nutricion Animal Andina
+22,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+22,POULTRY,2,Avicola del Sol C.A.
+22,PREPARED FOODS,2,Cocina Lista Industrial
+22,PRODUCE,2,Agricola Sierra y Costa S.A.
+22,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+22,SEAFOOD,2,Pescaderia Mar del Sur
+23,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+23,BABY CARE,9,Andina Infant Care S.A.
+23,BEAUTY,11,Quito Cosmetics & Personal
+23,BEVERAGES,6,Embotelladora Andina S.A.
+23,BOOKS,19,Editorial Panamericana
+23,BREAD/BAKERY,4,Panaderia Nacional Central
+23,CELEBRATION,13,Fiesta & Articulos S.A.
+23,CLEANING,8,Soluciones de Limpieza Quimica
+23,DAIRY,4,Lacteos Cotopaxi C.A.
+23,DELI,5,Embutidos Pichincha S.A.
+23,EGGS,4,Granja Avicola San Jose
+23,FROZEN FOODS,7,Congelados del Pacifico
+23,GROCERY I,6,Distribuidora Central de Abarrotes
+23,GROCERY II,7,Importadora Alimentos Andinos
+23,HARDWARE,16,Ferreteria Industrial del Norte
+23,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+23,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+23,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+23,HOME CARE,9,Cuidado del Hogar Continental
+23,LADIESWEAR,22,Textiles & Confecciones Quito
+23,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+23,LINGERIE,22,Textiles & Confecciones Quito
+23,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+23,MAGAZINES,15,Distribuidora Prensa Andina
+23,MEATS,3,Carnes del Valle C.A.
+23,PERSONAL CARE,8,Higiene & Bienestar S.A.
+23,PET SUPPLIES,10,Nutricion Animal Andina
+23,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+23,POULTRY,3,Avicola del Sol C.A.
+23,PREPARED FOODS,3,Cocina Lista Industrial
+23,PRODUCE,3,Agricola Sierra y Costa S.A.
+23,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+23,SEAFOOD,3,Pescaderia Mar del Sur
+24,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+24,BABY CARE,7,Andina Infant Care S.A.
+24,BEAUTY,9,Quito Cosmetics & Personal
+24,BEVERAGES,4,Embotelladora Andina S.A.
+24,BOOKS,17,Editorial Panamericana
+24,BREAD/BAKERY,2,Panaderia Nacional Central
+24,CELEBRATION,11,Fiesta & Articulos S.A.
+24,CLEANING,6,Soluciones de Limpieza Quimica
+24,DAIRY,2,Lacteos Cotopaxi C.A.
+24,DELI,3,Embutidos Pichincha S.A.
+24,EGGS,2,Granja Avicola San Jose
+24,FROZEN FOODS,5,Congelados del Pacifico
+24,GROCERY I,4,Distribuidora Central de Abarrotes
+24,GROCERY II,5,Importadora Alimentos Andinos
+24,HARDWARE,14,Ferreteria Industrial del Norte
+24,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+24,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+24,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+24,HOME CARE,7,Cuidado del Hogar Continental
+24,LADIESWEAR,20,Textiles & Confecciones Quito
+24,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+24,LINGERIE,20,Textiles & Confecciones Quito
+24,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+24,MAGAZINES,13,Distribuidora Prensa Andina
+24,MEATS,1,Carnes del Valle C.A.
+24,PERSONAL CARE,6,Higiene & Bienestar S.A.
+24,PET SUPPLIES,8,Nutricion Animal Andina
+24,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+24,POULTRY,1,Avicola del Sol C.A.
+24,PREPARED FOODS,1,Cocina Lista Industrial
+24,PRODUCE,1,Agricola Sierra y Costa S.A.
+24,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+24,SEAFOOD,1,Pescaderia Mar del Sur
+25,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+25,BABY CARE,8,Andina Infant Care S.A.
+25,BEAUTY,10,Quito Cosmetics & Personal
+25,BEVERAGES,5,Embotelladora Andina S.A.
+25,BOOKS,18,Editorial Panamericana
+25,BREAD/BAKERY,3,Panaderia Nacional Central
+25,CELEBRATION,12,Fiesta & Articulos S.A.
+25,CLEANING,7,Soluciones de Limpieza Quimica
+25,DAIRY,3,Lacteos Cotopaxi C.A.
+25,DELI,4,Embutidos Pichincha S.A.
+25,EGGS,3,Granja Avicola San Jose
+25,FROZEN FOODS,6,Congelados del Pacifico
+25,GROCERY I,5,Distribuidora Central de Abarrotes
+25,GROCERY II,6,Importadora Alimentos Andinos
+25,HARDWARE,15,Ferreteria Industrial del Norte
+25,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+25,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+25,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+25,HOME CARE,8,Cuidado del Hogar Continental
+25,LADIESWEAR,21,Textiles & Confecciones Quito
+25,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+25,LINGERIE,21,Textiles & Confecciones Quito
+25,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+25,MAGAZINES,14,Distribuidora Prensa Andina
+25,MEATS,2,Carnes del Valle C.A.
+25,PERSONAL CARE,7,Higiene & Bienestar S.A.
+25,PET SUPPLIES,9,Nutricion Animal Andina
+25,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+25,POULTRY,2,Avicola del Sol C.A.
+25,PREPARED FOODS,2,Cocina Lista Industrial
+25,PRODUCE,2,Agricola Sierra y Costa S.A.
+25,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+25,SEAFOOD,2,Pescaderia Mar del Sur
+26,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+26,BABY CARE,9,Andina Infant Care S.A.
+26,BEAUTY,11,Quito Cosmetics & Personal
+26,BEVERAGES,6,Embotelladora Andina S.A.
+26,BOOKS,19,Editorial Panamericana
+26,BREAD/BAKERY,4,Panaderia Nacional Central
+26,CELEBRATION,13,Fiesta & Articulos S.A.
+26,CLEANING,8,Soluciones de Limpieza Quimica
+26,DAIRY,4,Lacteos Cotopaxi C.A.
+26,DELI,5,Embutidos Pichincha S.A.
+26,EGGS,4,Granja Avicola San Jose
+26,FROZEN FOODS,7,Congelados del Pacifico
+26,GROCERY I,6,Distribuidora Central de Abarrotes
+26,GROCERY II,7,Importadora Alimentos Andinos
+26,HARDWARE,16,Ferreteria Industrial del Norte
+26,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+26,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+26,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+26,HOME CARE,9,Cuidado del Hogar Continental
+26,LADIESWEAR,22,Textiles & Confecciones Quito
+26,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+26,LINGERIE,22,Textiles & Confecciones Quito
+26,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+26,MAGAZINES,15,Distribuidora Prensa Andina
+26,MEATS,3,Carnes del Valle C.A.
+26,PERSONAL CARE,8,Higiene & Bienestar S.A.
+26,PET SUPPLIES,10,Nutricion Animal Andina
+26,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+26,POULTRY,3,Avicola del Sol C.A.
+26,PREPARED FOODS,3,Cocina Lista Industrial
+26,PRODUCE,3,Agricola Sierra y Costa S.A.
+26,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+26,SEAFOOD,3,Pescaderia Mar del Sur
+27,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+27,BABY CARE,7,Andina Infant Care S.A.
+27,BEAUTY,9,Quito Cosmetics & Personal
+27,BEVERAGES,4,Embotelladora Andina S.A.
+27,BOOKS,17,Editorial Panamericana
+27,BREAD/BAKERY,2,Panaderia Nacional Central
+27,CELEBRATION,11,Fiesta & Articulos S.A.
+27,CLEANING,6,Soluciones de Limpieza Quimica
+27,DAIRY,2,Lacteos Cotopaxi C.A.
+27,DELI,3,Embutidos Pichincha S.A.
+27,EGGS,2,Granja Avicola San Jose
+27,FROZEN FOODS,5,Congelados del Pacifico
+27,GROCERY I,4,Distribuidora Central de Abarrotes
+27,GROCERY II,5,Importadora Alimentos Andinos
+27,HARDWARE,14,Ferreteria Industrial del Norte
+27,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+27,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+27,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+27,HOME CARE,7,Cuidado del Hogar Continental
+27,LADIESWEAR,20,Textiles & Confecciones Quito
+27,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+27,LINGERIE,20,Textiles & Confecciones Quito
+27,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+27,MAGAZINES,13,Distribuidora Prensa Andina
+27,MEATS,1,Carnes del Valle C.A.
+27,PERSONAL CARE,6,Higiene & Bienestar S.A.
+27,PET SUPPLIES,8,Nutricion Animal Andina
+27,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+27,POULTRY,1,Avicola del Sol C.A.
+27,PREPARED FOODS,1,Cocina Lista Industrial
+27,PRODUCE,1,Agricola Sierra y Costa S.A.
+27,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+27,SEAFOOD,1,Pescaderia Mar del Sur
+28,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+28,BABY CARE,8,Andina Infant Care S.A.
+28,BEAUTY,10,Quito Cosmetics & Personal
+28,BEVERAGES,5,Embotelladora Andina S.A.
+28,BOOKS,18,Editorial Panamericana
+28,BREAD/BAKERY,3,Panaderia Nacional Central
+28,CELEBRATION,12,Fiesta & Articulos S.A.
+28,CLEANING,7,Soluciones de Limpieza Quimica
+28,DAIRY,3,Lacteos Cotopaxi C.A.
+28,DELI,4,Embutidos Pichincha S.A.
+28,EGGS,3,Granja Avicola San Jose
+28,FROZEN FOODS,6,Congelados del Pacifico
+28,GROCERY I,5,Distribuidora Central de Abarrotes
+28,GROCERY II,6,Importadora Alimentos Andinos
+28,HARDWARE,15,Ferreteria Industrial del Norte
+28,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+28,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+28,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+28,HOME CARE,8,Cuidado del Hogar Continental
+28,LADIESWEAR,21,Textiles & Confecciones Quito
+28,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+28,LINGERIE,21,Textiles & Confecciones Quito
+28,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+28,MAGAZINES,14,Distribuidora Prensa Andina
+28,MEATS,2,Carnes del Valle C.A.
+28,PERSONAL CARE,7,Higiene & Bienestar S.A.
+28,PET SUPPLIES,9,Nutricion Animal Andina
+28,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+28,POULTRY,2,Avicola del Sol C.A.
+28,PREPARED FOODS,2,Cocina Lista Industrial
+28,PRODUCE,2,Agricola Sierra y Costa S.A.
+28,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+28,SEAFOOD,2,Pescaderia Mar del Sur
+29,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+29,BABY CARE,9,Andina Infant Care S.A.
+29,BEAUTY,11,Quito Cosmetics & Personal
+29,BEVERAGES,6,Embotelladora Andina S.A.
+29,BOOKS,19,Editorial Panamericana
+29,BREAD/BAKERY,4,Panaderia Nacional Central
+29,CELEBRATION,13,Fiesta & Articulos S.A.
+29,CLEANING,8,Soluciones de Limpieza Quimica
+29,DAIRY,4,Lacteos Cotopaxi C.A.
+29,DELI,5,Embutidos Pichincha S.A.
+29,EGGS,4,Granja Avicola San Jose
+29,FROZEN FOODS,7,Congelados del Pacifico
+29,GROCERY I,6,Distribuidora Central de Abarrotes
+29,GROCERY II,7,Importadora Alimentos Andinos
+29,HARDWARE,16,Ferreteria Industrial del Norte
+29,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+29,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+29,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+29,HOME CARE,9,Cuidado del Hogar Continental
+29,LADIESWEAR,22,Textiles & Confecciones Quito
+29,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+29,LINGERIE,22,Textiles & Confecciones Quito
+29,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+29,MAGAZINES,15,Distribuidora Prensa Andina
+29,MEATS,3,Carnes del Valle C.A.
+29,PERSONAL CARE,8,Higiene & Bienestar S.A.
+29,PET SUPPLIES,10,Nutricion Animal Andina
+29,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+29,POULTRY,3,Avicola del Sol C.A.
+29,PREPARED FOODS,3,Cocina Lista Industrial
+29,PRODUCE,3,Agricola Sierra y Costa S.A.
+29,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+29,SEAFOOD,3,Pescaderia Mar del Sur
+30,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+30,BABY CARE,7,Andina Infant Care S.A.
+30,BEAUTY,9,Quito Cosmetics & Personal
+30,BEVERAGES,4,Embotelladora Andina S.A.
+30,BOOKS,17,Editorial Panamericana
+30,BREAD/BAKERY,2,Panaderia Nacional Central
+30,CELEBRATION,11,Fiesta & Articulos S.A.
+30,CLEANING,6,Soluciones de Limpieza Quimica
+30,DAIRY,2,Lacteos Cotopaxi C.A.
+30,DELI,3,Embutidos Pichincha S.A.
+30,EGGS,2,Granja Avicola San Jose
+30,FROZEN FOODS,5,Congelados del Pacifico
+30,GROCERY I,4,Distribuidora Central de Abarrotes
+30,GROCERY II,5,Importadora Alimentos Andinos
+30,HARDWARE,14,Ferreteria Industrial del Norte
+30,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+30,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+30,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+30,HOME CARE,7,Cuidado del Hogar Continental
+30,LADIESWEAR,20,Textiles & Confecciones Quito
+30,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+30,LINGERIE,20,Textiles & Confecciones Quito
+30,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+30,MAGAZINES,13,Distribuidora Prensa Andina
+30,MEATS,1,Carnes del Valle C.A.
+30,PERSONAL CARE,6,Higiene & Bienestar S.A.
+30,PET SUPPLIES,8,Nutricion Animal Andina
+30,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+30,POULTRY,1,Avicola del Sol C.A.
+30,PREPARED FOODS,1,Cocina Lista Industrial
+30,PRODUCE,1,Agricola Sierra y Costa S.A.
+30,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+30,SEAFOOD,1,Pescaderia Mar del Sur
+31,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+31,BABY CARE,8,Andina Infant Care S.A.
+31,BEAUTY,10,Quito Cosmetics & Personal
+31,BEVERAGES,5,Embotelladora Andina S.A.
+31,BOOKS,18,Editorial Panamericana
+31,BREAD/BAKERY,3,Panaderia Nacional Central
+31,CELEBRATION,12,Fiesta & Articulos S.A.
+31,CLEANING,7,Soluciones de Limpieza Quimica
+31,DAIRY,3,Lacteos Cotopaxi C.A.
+31,DELI,4,Embutidos Pichincha S.A.
+31,EGGS,3,Granja Avicola San Jose
+31,FROZEN FOODS,6,Congelados del Pacifico
+31,GROCERY I,5,Distribuidora Central de Abarrotes
+31,GROCERY II,6,Importadora Alimentos Andinos
+31,HARDWARE,15,Ferreteria Industrial del Norte
+31,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+31,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+31,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+31,HOME CARE,8,Cuidado del Hogar Continental
+31,LADIESWEAR,21,Textiles & Confecciones Quito
+31,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+31,LINGERIE,21,Textiles & Confecciones Quito
+31,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+31,MAGAZINES,14,Distribuidora Prensa Andina
+31,MEATS,2,Carnes del Valle C.A.
+31,PERSONAL CARE,7,Higiene & Bienestar S.A.
+31,PET SUPPLIES,9,Nutricion Animal Andina
+31,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+31,POULTRY,2,Avicola del Sol C.A.
+31,PREPARED FOODS,2,Cocina Lista Industrial
+31,PRODUCE,2,Agricola Sierra y Costa S.A.
+31,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+31,SEAFOOD,2,Pescaderia Mar del Sur
+32,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+32,BABY CARE,9,Andina Infant Care S.A.
+32,BEAUTY,11,Quito Cosmetics & Personal
+32,BEVERAGES,6,Embotelladora Andina S.A.
+32,BOOKS,19,Editorial Panamericana
+32,BREAD/BAKERY,4,Panaderia Nacional Central
+32,CELEBRATION,13,Fiesta & Articulos S.A.
+32,CLEANING,8,Soluciones de Limpieza Quimica
+32,DAIRY,4,Lacteos Cotopaxi C.A.
+32,DELI,5,Embutidos Pichincha S.A.
+32,EGGS,4,Granja Avicola San Jose
+32,FROZEN FOODS,7,Congelados del Pacifico
+32,GROCERY I,6,Distribuidora Central de Abarrotes
+32,GROCERY II,7,Importadora Alimentos Andinos
+32,HARDWARE,16,Ferreteria Industrial del Norte
+32,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+32,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+32,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+32,HOME CARE,9,Cuidado del Hogar Continental
+32,LADIESWEAR,22,Textiles & Confecciones Quito
+32,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+32,LINGERIE,22,Textiles & Confecciones Quito
+32,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+32,MAGAZINES,15,Distribuidora Prensa Andina
+32,MEATS,3,Carnes del Valle C.A.
+32,PERSONAL CARE,8,Higiene & Bienestar S.A.
+32,PET SUPPLIES,10,Nutricion Animal Andina
+32,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+32,POULTRY,3,Avicola del Sol C.A.
+32,PREPARED FOODS,3,Cocina Lista Industrial
+32,PRODUCE,3,Agricola Sierra y Costa S.A.
+32,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+32,SEAFOOD,3,Pescaderia Mar del Sur
+33,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+33,BABY CARE,7,Andina Infant Care S.A.
+33,BEAUTY,9,Quito Cosmetics & Personal
+33,BEVERAGES,4,Embotelladora Andina S.A.
+33,BOOKS,17,Editorial Panamericana
+33,BREAD/BAKERY,2,Panaderia Nacional Central
+33,CELEBRATION,11,Fiesta & Articulos S.A.
+33,CLEANING,6,Soluciones de Limpieza Quimica
+33,DAIRY,2,Lacteos Cotopaxi C.A.
+33,DELI,3,Embutidos Pichincha S.A.
+33,EGGS,2,Granja Avicola San Jose
+33,FROZEN FOODS,5,Congelados del Pacifico
+33,GROCERY I,4,Distribuidora Central de Abarrotes
+33,GROCERY II,5,Importadora Alimentos Andinos
+33,HARDWARE,14,Ferreteria Industrial del Norte
+33,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+33,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+33,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+33,HOME CARE,7,Cuidado del Hogar Continental
+33,LADIESWEAR,20,Textiles & Confecciones Quito
+33,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+33,LINGERIE,20,Textiles & Confecciones Quito
+33,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+33,MAGAZINES,13,Distribuidora Prensa Andina
+33,MEATS,1,Carnes del Valle C.A.
+33,PERSONAL CARE,6,Higiene & Bienestar S.A.
+33,PET SUPPLIES,8,Nutricion Animal Andina
+33,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+33,POULTRY,1,Avicola del Sol C.A.
+33,PREPARED FOODS,1,Cocina Lista Industrial
+33,PRODUCE,1,Agricola Sierra y Costa S.A.
+33,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+33,SEAFOOD,1,Pescaderia Mar del Sur
+34,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+34,BABY CARE,8,Andina Infant Care S.A.
+34,BEAUTY,10,Quito Cosmetics & Personal
+34,BEVERAGES,5,Embotelladora Andina S.A.
+34,BOOKS,18,Editorial Panamericana
+34,BREAD/BAKERY,3,Panaderia Nacional Central
+34,CELEBRATION,12,Fiesta & Articulos S.A.
+34,CLEANING,7,Soluciones de Limpieza Quimica
+34,DAIRY,3,Lacteos Cotopaxi C.A.
+34,DELI,4,Embutidos Pichincha S.A.
+34,EGGS,3,Granja Avicola San Jose
+34,FROZEN FOODS,6,Congelados del Pacifico
+34,GROCERY I,5,Distribuidora Central de Abarrotes
+34,GROCERY II,6,Importadora Alimentos Andinos
+34,HARDWARE,15,Ferreteria Industrial del Norte
+34,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+34,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+34,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+34,HOME CARE,8,Cuidado del Hogar Continental
+34,LADIESWEAR,21,Textiles & Confecciones Quito
+34,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+34,LINGERIE,21,Textiles & Confecciones Quito
+34,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+34,MAGAZINES,14,Distribuidora Prensa Andina
+34,MEATS,2,Carnes del Valle C.A.
+34,PERSONAL CARE,7,Higiene & Bienestar S.A.
+34,PET SUPPLIES,9,Nutricion Animal Andina
+34,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+34,POULTRY,2,Avicola del Sol C.A.
+34,PREPARED FOODS,2,Cocina Lista Industrial
+34,PRODUCE,2,Agricola Sierra y Costa S.A.
+34,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+34,SEAFOOD,2,Pescaderia Mar del Sur
+35,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+35,BABY CARE,9,Andina Infant Care S.A.
+35,BEAUTY,11,Quito Cosmetics & Personal
+35,BEVERAGES,6,Embotelladora Andina S.A.
+35,BOOKS,19,Editorial Panamericana
+35,BREAD/BAKERY,4,Panaderia Nacional Central
+35,CELEBRATION,13,Fiesta & Articulos S.A.
+35,CLEANING,8,Soluciones de Limpieza Quimica
+35,DAIRY,4,Lacteos Cotopaxi C.A.
+35,DELI,5,Embutidos Pichincha S.A.
+35,EGGS,4,Granja Avicola San Jose
+35,FROZEN FOODS,7,Congelados del Pacifico
+35,GROCERY I,6,Distribuidora Central de Abarrotes
+35,GROCERY II,7,Importadora Alimentos Andinos
+35,HARDWARE,16,Ferreteria Industrial del Norte
+35,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+35,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+35,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+35,HOME CARE,9,Cuidado del Hogar Continental
+35,LADIESWEAR,22,Textiles & Confecciones Quito
+35,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+35,LINGERIE,22,Textiles & Confecciones Quito
+35,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+35,MAGAZINES,15,Distribuidora Prensa Andina
+35,MEATS,3,Carnes del Valle C.A.
+35,PERSONAL CARE,8,Higiene & Bienestar S.A.
+35,PET SUPPLIES,10,Nutricion Animal Andina
+35,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+35,POULTRY,3,Avicola del Sol C.A.
+35,PREPARED FOODS,3,Cocina Lista Industrial
+35,PRODUCE,3,Agricola Sierra y Costa S.A.
+35,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+35,SEAFOOD,3,Pescaderia Mar del Sur
+36,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+36,BABY CARE,7,Andina Infant Care S.A.
+36,BEAUTY,9,Quito Cosmetics & Personal
+36,BEVERAGES,4,Embotelladora Andina S.A.
+36,BOOKS,17,Editorial Panamericana
+36,BREAD/BAKERY,2,Panaderia Nacional Central
+36,CELEBRATION,11,Fiesta & Articulos S.A.
+36,CLEANING,6,Soluciones de Limpieza Quimica
+36,DAIRY,2,Lacteos Cotopaxi C.A.
+36,DELI,3,Embutidos Pichincha S.A.
+36,EGGS,2,Granja Avicola San Jose
+36,FROZEN FOODS,5,Congelados del Pacifico
+36,GROCERY I,4,Distribuidora Central de Abarrotes
+36,GROCERY II,5,Importadora Alimentos Andinos
+36,HARDWARE,14,Ferreteria Industrial del Norte
+36,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+36,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+36,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+36,HOME CARE,7,Cuidado del Hogar Continental
+36,LADIESWEAR,20,Textiles & Confecciones Quito
+36,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+36,LINGERIE,20,Textiles & Confecciones Quito
+36,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+36,MAGAZINES,13,Distribuidora Prensa Andina
+36,MEATS,1,Carnes del Valle C.A.
+36,PERSONAL CARE,6,Higiene & Bienestar S.A.
+36,PET SUPPLIES,8,Nutricion Animal Andina
+36,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+36,POULTRY,1,Avicola del Sol C.A.
+36,PREPARED FOODS,1,Cocina Lista Industrial
+36,PRODUCE,1,Agricola Sierra y Costa S.A.
+36,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+36,SEAFOOD,1,Pescaderia Mar del Sur
+37,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+37,BABY CARE,8,Andina Infant Care S.A.
+37,BEAUTY,10,Quito Cosmetics & Personal
+37,BEVERAGES,5,Embotelladora Andina S.A.
+37,BOOKS,18,Editorial Panamericana
+37,BREAD/BAKERY,3,Panaderia Nacional Central
+37,CELEBRATION,12,Fiesta & Articulos S.A.
+37,CLEANING,7,Soluciones de Limpieza Quimica
+37,DAIRY,3,Lacteos Cotopaxi C.A.
+37,DELI,4,Embutidos Pichincha S.A.
+37,EGGS,3,Granja Avicola San Jose
+37,FROZEN FOODS,6,Congelados del Pacifico
+37,GROCERY I,5,Distribuidora Central de Abarrotes
+37,GROCERY II,6,Importadora Alimentos Andinos
+37,HARDWARE,15,Ferreteria Industrial del Norte
+37,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+37,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+37,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+37,HOME CARE,8,Cuidado del Hogar Continental
+37,LADIESWEAR,21,Textiles & Confecciones Quito
+37,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+37,LINGERIE,21,Textiles & Confecciones Quito
+37,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+37,MAGAZINES,14,Distribuidora Prensa Andina
+37,MEATS,2,Carnes del Valle C.A.
+37,PERSONAL CARE,7,Higiene & Bienestar S.A.
+37,PET SUPPLIES,9,Nutricion Animal Andina
+37,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+37,POULTRY,2,Avicola del Sol C.A.
+37,PREPARED FOODS,2,Cocina Lista Industrial
+37,PRODUCE,2,Agricola Sierra y Costa S.A.
+37,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+37,SEAFOOD,2,Pescaderia Mar del Sur
+38,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+38,BABY CARE,9,Andina Infant Care S.A.
+38,BEAUTY,11,Quito Cosmetics & Personal
+38,BEVERAGES,6,Embotelladora Andina S.A.
+38,BOOKS,19,Editorial Panamericana
+38,BREAD/BAKERY,4,Panaderia Nacional Central
+38,CELEBRATION,13,Fiesta & Articulos S.A.
+38,CLEANING,8,Soluciones de Limpieza Quimica
+38,DAIRY,4,Lacteos Cotopaxi C.A.
+38,DELI,5,Embutidos Pichincha S.A.
+38,EGGS,4,Granja Avicola San Jose
+38,FROZEN FOODS,7,Congelados del Pacifico
+38,GROCERY I,6,Distribuidora Central de Abarrotes
+38,GROCERY II,7,Importadora Alimentos Andinos
+38,HARDWARE,16,Ferreteria Industrial del Norte
+38,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+38,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+38,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+38,HOME CARE,9,Cuidado del Hogar Continental
+38,LADIESWEAR,22,Textiles & Confecciones Quito
+38,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+38,LINGERIE,22,Textiles & Confecciones Quito
+38,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+38,MAGAZINES,15,Distribuidora Prensa Andina
+38,MEATS,3,Carnes del Valle C.A.
+38,PERSONAL CARE,8,Higiene & Bienestar S.A.
+38,PET SUPPLIES,10,Nutricion Animal Andina
+38,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+38,POULTRY,3,Avicola del Sol C.A.
+38,PREPARED FOODS,3,Cocina Lista Industrial
+38,PRODUCE,3,Agricola Sierra y Costa S.A.
+38,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+38,SEAFOOD,3,Pescaderia Mar del Sur
+39,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+39,BABY CARE,7,Andina Infant Care S.A.
+39,BEAUTY,9,Quito Cosmetics & Personal
+39,BEVERAGES,4,Embotelladora Andina S.A.
+39,BOOKS,17,Editorial Panamericana
+39,BREAD/BAKERY,2,Panaderia Nacional Central
+39,CELEBRATION,11,Fiesta & Articulos S.A.
+39,CLEANING,6,Soluciones de Limpieza Quimica
+39,DAIRY,2,Lacteos Cotopaxi C.A.
+39,DELI,3,Embutidos Pichincha S.A.
+39,EGGS,2,Granja Avicola San Jose
+39,FROZEN FOODS,5,Congelados del Pacifico
+39,GROCERY I,4,Distribuidora Central de Abarrotes
+39,GROCERY II,5,Importadora Alimentos Andinos
+39,HARDWARE,14,Ferreteria Industrial del Norte
+39,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+39,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+39,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+39,HOME CARE,7,Cuidado del Hogar Continental
+39,LADIESWEAR,20,Textiles & Confecciones Quito
+39,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+39,LINGERIE,20,Textiles & Confecciones Quito
+39,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+39,MAGAZINES,13,Distribuidora Prensa Andina
+39,MEATS,1,Carnes del Valle C.A.
+39,PERSONAL CARE,6,Higiene & Bienestar S.A.
+39,PET SUPPLIES,8,Nutricion Animal Andina
+39,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+39,POULTRY,1,Avicola del Sol C.A.
+39,PREPARED FOODS,1,Cocina Lista Industrial
+39,PRODUCE,1,Agricola Sierra y Costa S.A.
+39,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+39,SEAFOOD,1,Pescaderia Mar del Sur
+40,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+40,BABY CARE,8,Andina Infant Care S.A.
+40,BEAUTY,10,Quito Cosmetics & Personal
+40,BEVERAGES,5,Embotelladora Andina S.A.
+40,BOOKS,18,Editorial Panamericana
+40,BREAD/BAKERY,3,Panaderia Nacional Central
+40,CELEBRATION,12,Fiesta & Articulos S.A.
+40,CLEANING,7,Soluciones de Limpieza Quimica
+40,DAIRY,3,Lacteos Cotopaxi C.A.
+40,DELI,4,Embutidos Pichincha S.A.
+40,EGGS,3,Granja Avicola San Jose
+40,FROZEN FOODS,6,Congelados del Pacifico
+40,GROCERY I,5,Distribuidora Central de Abarrotes
+40,GROCERY II,6,Importadora Alimentos Andinos
+40,HARDWARE,15,Ferreteria Industrial del Norte
+40,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+40,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+40,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+40,HOME CARE,8,Cuidado del Hogar Continental
+40,LADIESWEAR,21,Textiles & Confecciones Quito
+40,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+40,LINGERIE,21,Textiles & Confecciones Quito
+40,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+40,MAGAZINES,14,Distribuidora Prensa Andina
+40,MEATS,2,Carnes del Valle C.A.
+40,PERSONAL CARE,7,Higiene & Bienestar S.A.
+40,PET SUPPLIES,9,Nutricion Animal Andina
+40,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+40,POULTRY,2,Avicola del Sol C.A.
+40,PREPARED FOODS,2,Cocina Lista Industrial
+40,PRODUCE,2,Agricola Sierra y Costa S.A.
+40,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+40,SEAFOOD,2,Pescaderia Mar del Sur
+41,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+41,BABY CARE,9,Andina Infant Care S.A.
+41,BEAUTY,11,Quito Cosmetics & Personal
+41,BEVERAGES,6,Embotelladora Andina S.A.
+41,BOOKS,19,Editorial Panamericana
+41,BREAD/BAKERY,4,Panaderia Nacional Central
+41,CELEBRATION,13,Fiesta & Articulos S.A.
+41,CLEANING,8,Soluciones de Limpieza Quimica
+41,DAIRY,4,Lacteos Cotopaxi C.A.
+41,DELI,5,Embutidos Pichincha S.A.
+41,EGGS,4,Granja Avicola San Jose
+41,FROZEN FOODS,7,Congelados del Pacifico
+41,GROCERY I,6,Distribuidora Central de Abarrotes
+41,GROCERY II,7,Importadora Alimentos Andinos
+41,HARDWARE,16,Ferreteria Industrial del Norte
+41,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+41,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+41,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+41,HOME CARE,9,Cuidado del Hogar Continental
+41,LADIESWEAR,22,Textiles & Confecciones Quito
+41,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+41,LINGERIE,22,Textiles & Confecciones Quito
+41,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+41,MAGAZINES,15,Distribuidora Prensa Andina
+41,MEATS,3,Carnes del Valle C.A.
+41,PERSONAL CARE,8,Higiene & Bienestar S.A.
+41,PET SUPPLIES,10,Nutricion Animal Andina
+41,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+41,POULTRY,3,Avicola del Sol C.A.
+41,PREPARED FOODS,3,Cocina Lista Industrial
+41,PRODUCE,3,Agricola Sierra y Costa S.A.
+41,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+41,SEAFOOD,3,Pescaderia Mar del Sur
+42,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+42,BABY CARE,7,Andina Infant Care S.A.
+42,BEAUTY,9,Quito Cosmetics & Personal
+42,BEVERAGES,4,Embotelladora Andina S.A.
+42,BOOKS,17,Editorial Panamericana
+42,BREAD/BAKERY,2,Panaderia Nacional Central
+42,CELEBRATION,11,Fiesta & Articulos S.A.
+42,CLEANING,6,Soluciones de Limpieza Quimica
+42,DAIRY,2,Lacteos Cotopaxi C.A.
+42,DELI,3,Embutidos Pichincha S.A.
+42,EGGS,2,Granja Avicola San Jose
+42,FROZEN FOODS,5,Congelados del Pacifico
+42,GROCERY I,4,Distribuidora Central de Abarrotes
+42,GROCERY II,5,Importadora Alimentos Andinos
+42,HARDWARE,14,Ferreteria Industrial del Norte
+42,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+42,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+42,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+42,HOME CARE,7,Cuidado del Hogar Continental
+42,LADIESWEAR,20,Textiles & Confecciones Quito
+42,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+42,LINGERIE,20,Textiles & Confecciones Quito
+42,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+42,MAGAZINES,13,Distribuidora Prensa Andina
+42,MEATS,1,Carnes del Valle C.A.
+42,PERSONAL CARE,6,Higiene & Bienestar S.A.
+42,PET SUPPLIES,8,Nutricion Animal Andina
+42,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+42,POULTRY,1,Avicola del Sol C.A.
+42,PREPARED FOODS,1,Cocina Lista Industrial
+42,PRODUCE,1,Agricola Sierra y Costa S.A.
+42,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+42,SEAFOOD,1,Pescaderia Mar del Sur
+43,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+43,BABY CARE,8,Andina Infant Care S.A.
+43,BEAUTY,10,Quito Cosmetics & Personal
+43,BEVERAGES,5,Embotelladora Andina S.A.
+43,BOOKS,18,Editorial Panamericana
+43,BREAD/BAKERY,3,Panaderia Nacional Central
+43,CELEBRATION,12,Fiesta & Articulos S.A.
+43,CLEANING,7,Soluciones de Limpieza Quimica
+43,DAIRY,3,Lacteos Cotopaxi C.A.
+43,DELI,4,Embutidos Pichincha S.A.
+43,EGGS,3,Granja Avicola San Jose
+43,FROZEN FOODS,6,Congelados del Pacifico
+43,GROCERY I,5,Distribuidora Central de Abarrotes
+43,GROCERY II,6,Importadora Alimentos Andinos
+43,HARDWARE,15,Ferreteria Industrial del Norte
+43,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+43,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+43,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+43,HOME CARE,8,Cuidado del Hogar Continental
+43,LADIESWEAR,21,Textiles & Confecciones Quito
+43,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+43,LINGERIE,21,Textiles & Confecciones Quito
+43,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+43,MAGAZINES,14,Distribuidora Prensa Andina
+43,MEATS,2,Carnes del Valle C.A.
+43,PERSONAL CARE,7,Higiene & Bienestar S.A.
+43,PET SUPPLIES,9,Nutricion Animal Andina
+43,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+43,POULTRY,2,Avicola del Sol C.A.
+43,PREPARED FOODS,2,Cocina Lista Industrial
+43,PRODUCE,2,Agricola Sierra y Costa S.A.
+43,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+43,SEAFOOD,2,Pescaderia Mar del Sur
+44,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+44,BABY CARE,9,Andina Infant Care S.A.
+44,BEAUTY,11,Quito Cosmetics & Personal
+44,BEVERAGES,6,Embotelladora Andina S.A.
+44,BOOKS,19,Editorial Panamericana
+44,BREAD/BAKERY,4,Panaderia Nacional Central
+44,CELEBRATION,13,Fiesta & Articulos S.A.
+44,CLEANING,8,Soluciones de Limpieza Quimica
+44,DAIRY,4,Lacteos Cotopaxi C.A.
+44,DELI,5,Embutidos Pichincha S.A.
+44,EGGS,4,Granja Avicola San Jose
+44,FROZEN FOODS,7,Congelados del Pacifico
+44,GROCERY I,6,Distribuidora Central de Abarrotes
+44,GROCERY II,7,Importadora Alimentos Andinos
+44,HARDWARE,16,Ferreteria Industrial del Norte
+44,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+44,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+44,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+44,HOME CARE,9,Cuidado del Hogar Continental
+44,LADIESWEAR,22,Textiles & Confecciones Quito
+44,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+44,LINGERIE,22,Textiles & Confecciones Quito
+44,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+44,MAGAZINES,15,Distribuidora Prensa Andina
+44,MEATS,3,Carnes del Valle C.A.
+44,PERSONAL CARE,8,Higiene & Bienestar S.A.
+44,PET SUPPLIES,10,Nutricion Animal Andina
+44,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+44,POULTRY,3,Avicola del Sol C.A.
+44,PREPARED FOODS,3,Cocina Lista Industrial
+44,PRODUCE,3,Agricola Sierra y Costa S.A.
+44,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+44,SEAFOOD,3,Pescaderia Mar del Sur
+45,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+45,BABY CARE,7,Andina Infant Care S.A.
+45,BEAUTY,9,Quito Cosmetics & Personal
+45,BEVERAGES,4,Embotelladora Andina S.A.
+45,BOOKS,17,Editorial Panamericana
+45,BREAD/BAKERY,2,Panaderia Nacional Central
+45,CELEBRATION,11,Fiesta & Articulos S.A.
+45,CLEANING,6,Soluciones de Limpieza Quimica
+45,DAIRY,2,Lacteos Cotopaxi C.A.
+45,DELI,3,Embutidos Pichincha S.A.
+45,EGGS,2,Granja Avicola San Jose
+45,FROZEN FOODS,5,Congelados del Pacifico
+45,GROCERY I,4,Distribuidora Central de Abarrotes
+45,GROCERY II,5,Importadora Alimentos Andinos
+45,HARDWARE,14,Ferreteria Industrial del Norte
+45,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+45,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+45,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+45,HOME CARE,7,Cuidado del Hogar Continental
+45,LADIESWEAR,20,Textiles & Confecciones Quito
+45,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+45,LINGERIE,20,Textiles & Confecciones Quito
+45,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+45,MAGAZINES,13,Distribuidora Prensa Andina
+45,MEATS,1,Carnes del Valle C.A.
+45,PERSONAL CARE,6,Higiene & Bienestar S.A.
+45,PET SUPPLIES,8,Nutricion Animal Andina
+45,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+45,POULTRY,1,Avicola del Sol C.A.
+45,PREPARED FOODS,1,Cocina Lista Industrial
+45,PRODUCE,1,Agricola Sierra y Costa S.A.
+45,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+45,SEAFOOD,1,Pescaderia Mar del Sur
+46,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+46,BABY CARE,8,Andina Infant Care S.A.
+46,BEAUTY,10,Quito Cosmetics & Personal
+46,BEVERAGES,5,Embotelladora Andina S.A.
+46,BOOKS,18,Editorial Panamericana
+46,BREAD/BAKERY,3,Panaderia Nacional Central
+46,CELEBRATION,12,Fiesta & Articulos S.A.
+46,CLEANING,7,Soluciones de Limpieza Quimica
+46,DAIRY,3,Lacteos Cotopaxi C.A.
+46,DELI,4,Embutidos Pichincha S.A.
+46,EGGS,3,Granja Avicola San Jose
+46,FROZEN FOODS,6,Congelados del Pacifico
+46,GROCERY I,5,Distribuidora Central de Abarrotes
+46,GROCERY II,6,Importadora Alimentos Andinos
+46,HARDWARE,15,Ferreteria Industrial del Norte
+46,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+46,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+46,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+46,HOME CARE,8,Cuidado del Hogar Continental
+46,LADIESWEAR,21,Textiles & Confecciones Quito
+46,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+46,LINGERIE,21,Textiles & Confecciones Quito
+46,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+46,MAGAZINES,14,Distribuidora Prensa Andina
+46,MEATS,2,Carnes del Valle C.A.
+46,PERSONAL CARE,7,Higiene & Bienestar S.A.
+46,PET SUPPLIES,9,Nutricion Animal Andina
+46,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+46,POULTRY,2,Avicola del Sol C.A.
+46,PREPARED FOODS,2,Cocina Lista Industrial
+46,PRODUCE,2,Agricola Sierra y Costa S.A.
+46,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+46,SEAFOOD,2,Pescaderia Mar del Sur
+47,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+47,BABY CARE,9,Andina Infant Care S.A.
+47,BEAUTY,11,Quito Cosmetics & Personal
+47,BEVERAGES,6,Embotelladora Andina S.A.
+47,BOOKS,19,Editorial Panamericana
+47,BREAD/BAKERY,4,Panaderia Nacional Central
+47,CELEBRATION,13,Fiesta & Articulos S.A.
+47,CLEANING,8,Soluciones de Limpieza Quimica
+47,DAIRY,4,Lacteos Cotopaxi C.A.
+47,DELI,5,Embutidos Pichincha S.A.
+47,EGGS,4,Granja Avicola San Jose
+47,FROZEN FOODS,7,Congelados del Pacifico
+47,GROCERY I,6,Distribuidora Central de Abarrotes
+47,GROCERY II,7,Importadora Alimentos Andinos
+47,HARDWARE,16,Ferreteria Industrial del Norte
+47,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+47,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+47,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+47,HOME CARE,9,Cuidado del Hogar Continental
+47,LADIESWEAR,22,Textiles & Confecciones Quito
+47,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+47,LINGERIE,22,Textiles & Confecciones Quito
+47,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+47,MAGAZINES,15,Distribuidora Prensa Andina
+47,MEATS,3,Carnes del Valle C.A.
+47,PERSONAL CARE,8,Higiene & Bienestar S.A.
+47,PET SUPPLIES,10,Nutricion Animal Andina
+47,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+47,POULTRY,3,Avicola del Sol C.A.
+47,PREPARED FOODS,3,Cocina Lista Industrial
+47,PRODUCE,3,Agricola Sierra y Costa S.A.
+47,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+47,SEAFOOD,3,Pescaderia Mar del Sur
+48,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+48,BABY CARE,7,Andina Infant Care S.A.
+48,BEAUTY,9,Quito Cosmetics & Personal
+48,BEVERAGES,4,Embotelladora Andina S.A.
+48,BOOKS,17,Editorial Panamericana
+48,BREAD/BAKERY,2,Panaderia Nacional Central
+48,CELEBRATION,11,Fiesta & Articulos S.A.
+48,CLEANING,6,Soluciones de Limpieza Quimica
+48,DAIRY,2,Lacteos Cotopaxi C.A.
+48,DELI,3,Embutidos Pichincha S.A.
+48,EGGS,2,Granja Avicola San Jose
+48,FROZEN FOODS,5,Congelados del Pacifico
+48,GROCERY I,4,Distribuidora Central de Abarrotes
+48,GROCERY II,5,Importadora Alimentos Andinos
+48,HARDWARE,14,Ferreteria Industrial del Norte
+48,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+48,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+48,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+48,HOME CARE,7,Cuidado del Hogar Continental
+48,LADIESWEAR,20,Textiles & Confecciones Quito
+48,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+48,LINGERIE,20,Textiles & Confecciones Quito
+48,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+48,MAGAZINES,13,Distribuidora Prensa Andina
+48,MEATS,1,Carnes del Valle C.A.
+48,PERSONAL CARE,6,Higiene & Bienestar S.A.
+48,PET SUPPLIES,8,Nutricion Animal Andina
+48,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+48,POULTRY,1,Avicola del Sol C.A.
+48,PREPARED FOODS,1,Cocina Lista Industrial
+48,PRODUCE,1,Agricola Sierra y Costa S.A.
+48,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+48,SEAFOOD,1,Pescaderia Mar del Sur
+49,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+49,BABY CARE,8,Andina Infant Care S.A.
+49,BEAUTY,10,Quito Cosmetics & Personal
+49,BEVERAGES,5,Embotelladora Andina S.A.
+49,BOOKS,18,Editorial Panamericana
+49,BREAD/BAKERY,3,Panaderia Nacional Central
+49,CELEBRATION,12,Fiesta & Articulos S.A.
+49,CLEANING,7,Soluciones de Limpieza Quimica
+49,DAIRY,3,Lacteos Cotopaxi C.A.
+49,DELI,4,Embutidos Pichincha S.A.
+49,EGGS,3,Granja Avicola San Jose
+49,FROZEN FOODS,6,Congelados del Pacifico
+49,GROCERY I,5,Distribuidora Central de Abarrotes
+49,GROCERY II,6,Importadora Alimentos Andinos
+49,HARDWARE,15,Ferreteria Industrial del Norte
+49,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+49,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+49,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+49,HOME CARE,8,Cuidado del Hogar Continental
+49,LADIESWEAR,21,Textiles & Confecciones Quito
+49,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+49,LINGERIE,21,Textiles & Confecciones Quito
+49,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+49,MAGAZINES,14,Distribuidora Prensa Andina
+49,MEATS,2,Carnes del Valle C.A.
+49,PERSONAL CARE,7,Higiene & Bienestar S.A.
+49,PET SUPPLIES,9,Nutricion Animal Andina
+49,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+49,POULTRY,2,Avicola del Sol C.A.
+49,PREPARED FOODS,2,Cocina Lista Industrial
+49,PRODUCE,2,Agricola Sierra y Costa S.A.
+49,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+49,SEAFOOD,2,Pescaderia Mar del Sur
+50,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+50,BABY CARE,9,Andina Infant Care S.A.
+50,BEAUTY,11,Quito Cosmetics & Personal
+50,BEVERAGES,6,Embotelladora Andina S.A.
+50,BOOKS,19,Editorial Panamericana
+50,BREAD/BAKERY,4,Panaderia Nacional Central
+50,CELEBRATION,13,Fiesta & Articulos S.A.
+50,CLEANING,8,Soluciones de Limpieza Quimica
+50,DAIRY,4,Lacteos Cotopaxi C.A.
+50,DELI,5,Embutidos Pichincha S.A.
+50,EGGS,4,Granja Avicola San Jose
+50,FROZEN FOODS,7,Congelados del Pacifico
+50,GROCERY I,6,Distribuidora Central de Abarrotes
+50,GROCERY II,7,Importadora Alimentos Andinos
+50,HARDWARE,16,Ferreteria Industrial del Norte
+50,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+50,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+50,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+50,HOME CARE,9,Cuidado del Hogar Continental
+50,LADIESWEAR,22,Textiles & Confecciones Quito
+50,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+50,LINGERIE,22,Textiles & Confecciones Quito
+50,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+50,MAGAZINES,15,Distribuidora Prensa Andina
+50,MEATS,3,Carnes del Valle C.A.
+50,PERSONAL CARE,8,Higiene & Bienestar S.A.
+50,PET SUPPLIES,10,Nutricion Animal Andina
+50,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+50,POULTRY,3,Avicola del Sol C.A.
+50,PREPARED FOODS,3,Cocina Lista Industrial
+50,PRODUCE,3,Agricola Sierra y Costa S.A.
+50,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+50,SEAFOOD,3,Pescaderia Mar del Sur
+51,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+51,BABY CARE,7,Andina Infant Care S.A.
+51,BEAUTY,9,Quito Cosmetics & Personal
+51,BEVERAGES,4,Embotelladora Andina S.A.
+51,BOOKS,17,Editorial Panamericana
+51,BREAD/BAKERY,2,Panaderia Nacional Central
+51,CELEBRATION,11,Fiesta & Articulos S.A.
+51,CLEANING,6,Soluciones de Limpieza Quimica
+51,DAIRY,2,Lacteos Cotopaxi C.A.
+51,DELI,3,Embutidos Pichincha S.A.
+51,EGGS,2,Granja Avicola San Jose
+51,FROZEN FOODS,5,Congelados del Pacifico
+51,GROCERY I,4,Distribuidora Central de Abarrotes
+51,GROCERY II,5,Importadora Alimentos Andinos
+51,HARDWARE,14,Ferreteria Industrial del Norte
+51,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+51,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+51,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+51,HOME CARE,7,Cuidado del Hogar Continental
+51,LADIESWEAR,20,Textiles & Confecciones Quito
+51,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+51,LINGERIE,20,Textiles & Confecciones Quito
+51,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+51,MAGAZINES,13,Distribuidora Prensa Andina
+51,MEATS,1,Carnes del Valle C.A.
+51,PERSONAL CARE,6,Higiene & Bienestar S.A.
+51,PET SUPPLIES,8,Nutricion Animal Andina
+51,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+51,POULTRY,1,Avicola del Sol C.A.
+51,PREPARED FOODS,1,Cocina Lista Industrial
+51,PRODUCE,1,Agricola Sierra y Costa S.A.
+51,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+51,SEAFOOD,1,Pescaderia Mar del Sur
+52,AUTOMOTIVE,14,Ecuador Motor Parts Ltd.
+52,BABY CARE,8,Andina Infant Care S.A.
+52,BEAUTY,10,Quito Cosmetics & Personal
+52,BEVERAGES,5,Embotelladora Andina S.A.
+52,BOOKS,18,Editorial Panamericana
+52,BREAD/BAKERY,3,Panaderia Nacional Central
+52,CELEBRATION,12,Fiesta & Articulos S.A.
+52,CLEANING,7,Soluciones de Limpieza Quimica
+52,DAIRY,3,Lacteos Cotopaxi C.A.
+52,DELI,4,Embutidos Pichincha S.A.
+52,EGGS,3,Granja Avicola San Jose
+52,FROZEN FOODS,6,Congelados del Pacifico
+52,GROCERY I,5,Distribuidora Central de Abarrotes
+52,GROCERY II,6,Importadora Alimentos Andinos
+52,HARDWARE,15,Ferreteria Industrial del Norte
+52,HOME AND KITCHEN I,14,Hogar & Menaje Ecuador
+52,HOME AND KITCHEN II,14,Electrodomesticos Andinos
+52,HOME APPLIANCES,21,Tecnologia Domestica S.A.
+52,HOME CARE,8,Cuidado del Hogar Continental
+52,LADIESWEAR,21,Textiles & Confecciones Quito
+52,LAWN AND GARDEN,14,Jardineria & Campo S.A.
+52,LINGERIE,21,Textiles & Confecciones Quito
+52,"LIQUOR,WINE,BEER",7,Cerveceria & Licores Nacional
+52,MAGAZINES,14,Distribuidora Prensa Andina
+52,MEATS,2,Carnes del Valle C.A.
+52,PERSONAL CARE,7,Higiene & Bienestar S.A.
+52,PET SUPPLIES,9,Nutricion Animal Andina
+52,PLAYERS AND ELECTRONICS,21,Audio & Video Import S.A.
+52,POULTRY,2,Avicola del Sol C.A.
+52,PREPARED FOODS,2,Cocina Lista Industrial
+52,PRODUCE,2,Agricola Sierra y Costa S.A.
+52,SCHOOL AND OFFICE SUPPLIES,15,Papeleria & Utiles del Norte
+52,SEAFOOD,2,Pescaderia Mar del Sur
+53,AUTOMOTIVE,15,Ecuador Motor Parts Ltd.
+53,BABY CARE,9,Andina Infant Care S.A.
+53,BEAUTY,11,Quito Cosmetics & Personal
+53,BEVERAGES,6,Embotelladora Andina S.A.
+53,BOOKS,19,Editorial Panamericana
+53,BREAD/BAKERY,4,Panaderia Nacional Central
+53,CELEBRATION,13,Fiesta & Articulos S.A.
+53,CLEANING,8,Soluciones de Limpieza Quimica
+53,DAIRY,4,Lacteos Cotopaxi C.A.
+53,DELI,5,Embutidos Pichincha S.A.
+53,EGGS,4,Granja Avicola San Jose
+53,FROZEN FOODS,7,Congelados del Pacifico
+53,GROCERY I,6,Distribuidora Central de Abarrotes
+53,GROCERY II,7,Importadora Alimentos Andinos
+53,HARDWARE,16,Ferreteria Industrial del Norte
+53,HOME AND KITCHEN I,15,Hogar & Menaje Ecuador
+53,HOME AND KITCHEN II,15,Electrodomesticos Andinos
+53,HOME APPLIANCES,22,Tecnologia Domestica S.A.
+53,HOME CARE,9,Cuidado del Hogar Continental
+53,LADIESWEAR,22,Textiles & Confecciones Quito
+53,LAWN AND GARDEN,15,Jardineria & Campo S.A.
+53,LINGERIE,22,Textiles & Confecciones Quito
+53,"LIQUOR,WINE,BEER",8,Cerveceria & Licores Nacional
+53,MAGAZINES,15,Distribuidora Prensa Andina
+53,MEATS,3,Carnes del Valle C.A.
+53,PERSONAL CARE,8,Higiene & Bienestar S.A.
+53,PET SUPPLIES,10,Nutricion Animal Andina
+53,PLAYERS AND ELECTRONICS,22,Audio & Video Import S.A.
+53,POULTRY,3,Avicola del Sol C.A.
+53,PREPARED FOODS,3,Cocina Lista Industrial
+53,PRODUCE,3,Agricola Sierra y Costa S.A.
+53,SCHOOL AND OFFICE SUPPLIES,16,Papeleria & Utiles del Norte
+53,SEAFOOD,3,Pescaderia Mar del Sur
+54,AUTOMOTIVE,13,Ecuador Motor Parts Ltd.
+54,BABY CARE,7,Andina Infant Care S.A.
+54,BEAUTY,9,Quito Cosmetics & Personal
+54,BEVERAGES,4,Embotelladora Andina S.A.
+54,BOOKS,17,Editorial Panamericana
+54,BREAD/BAKERY,2,Panaderia Nacional Central
+54,CELEBRATION,11,Fiesta & Articulos S.A.
+54,CLEANING,6,Soluciones de Limpieza Quimica
+54,DAIRY,2,Lacteos Cotopaxi C.A.
+54,DELI,3,Embutidos Pichincha S.A.
+54,EGGS,2,Granja Avicola San Jose
+54,FROZEN FOODS,5,Congelados del Pacifico
+54,GROCERY I,4,Distribuidora Central de Abarrotes
+54,GROCERY II,5,Importadora Alimentos Andinos
+54,HARDWARE,14,Ferreteria Industrial del Norte
+54,HOME AND KITCHEN I,13,Hogar & Menaje Ecuador
+54,HOME AND KITCHEN II,13,Electrodomesticos Andinos
+54,HOME APPLIANCES,20,Tecnologia Domestica S.A.
+54,HOME CARE,7,Cuidado del Hogar Continental
+54,LADIESWEAR,20,Textiles & Confecciones Quito
+54,LAWN AND GARDEN,13,Jardineria & Campo S.A.
+54,LINGERIE,20,Textiles & Confecciones Quito
+54,"LIQUOR,WINE,BEER",6,Cerveceria & Licores Nacional
+54,MAGAZINES,13,Distribuidora Prensa Andina
+54,MEATS,1,Carnes del Valle C.A.
+54,PERSONAL CARE,6,Higiene & Bienestar S.A.
+54,PET SUPPLIES,8,Nutricion Animal Andina
+54,PLAYERS AND ELECTRONICS,20,Audio & Video Import S.A.
+54,POULTRY,1,Avicola del Sol C.A.
+54,PREPARED FOODS,1,Cocina Lista Industrial
+54,PRODUCE,1,Agricola Sierra y Costa S.A.
+54,SCHOOL AND OFFICE SUPPLIES,14,Papeleria & Utiles del Norte
+54,SEAFOOD,1,Pescaderia Mar del Sur

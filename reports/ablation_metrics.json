@@ -1,0 +1,73 @@
+{
+  "analysis_timestamp": "2026-10-27T17:32:16.358993",
+  "holdout_horizon_weeks": 13,
+  "total_series_evaluated": 1782,
+  "total_holdout_observations": 23166,
+  "ablations": [
+    {
+      "config_id": "M0_FULL_MODEL",
+      "name": "Full Feature Model (Benchmark)",
+      "features_removed": "None (Full 36 features)",
+      "feature_count": 36,
+      "wape": 12.27,
+      "mae": 412.74,
+      "rmse": 1441.24,
+      "wape_delta_pp": 0.0,
+      "pct_error_increase": 0.0,
+      "criticality": "Benchmark Baseline",
+      "business_impact": "Captures promotional surges, payday quincenas, and multi-scale momentum."
+    },
+    {
+      "config_id": "M1_NO_PROMOTIONS",
+      "name": "Ablation 1: Exclude Promotional Features",
+      "features_removed": "onpromotion_lag_1, onpromotion_lag_2, onpromotion_rolling_mean_4",
+      "feature_count": 33,
+      "wape": 13.75,
+      "mae": 462.54,
+      "rmse": 1609.64,
+      "wape_delta_pp": 1.48,
+      "pct_error_increase": 12.06,
+      "criticality": "HIGH CRITICALITY",
+      "business_impact": "Causes severe underforecasting during trade promotion weeks (+545% actual lift in EDA missed)."
+    },
+    {
+      "config_id": "M2_NO_CALENDAR_QUINCENA",
+      "name": "Ablation 2: Exclude Calendar & Payday Cycles",
+      "features_removed": "quincena_flag, month_start_flag, month_end_flag, is_holiday_week, holidays_in_week, week_of_year, month, quarter",
+      "feature_count": 28,
+      "wape": 14.19,
+      "mae": 477.34,
+      "rmse": 1655.34,
+      "wape_delta_pp": 1.92,
+      "pct_error_increase": 15.65,
+      "criticality": "HIGH CRITICALITY",
+      "business_impact": "Misses 15th and month-end salary payout surges; leads to recurring mid-month stockouts."
+    },
+    {
+      "config_id": "M3_NO_MACRO_OIL",
+      "name": "Ablation 3: Exclude Macroeconomic & Traffic",
+      "features_removed": "oil_price_lag_1, oil_price_weekly_change, transactions_lag_1",
+      "feature_count": 33,
+      "wape": 12.62,
+      "mae": 424.54,
+      "rmse": 1479.74,
+      "wape_delta_pp": 0.35,
+      "pct_error_increase": 2.85,
+      "criticality": "LOW CRITICALITY",
+      "business_impact": "Minor macro drift. Store-level customer transactions and oil prices act as weak broad indicators."
+    },
+    {
+      "config_id": "M4_LAGS_ONLY",
+      "name": "Ablation 4: Simple Lags Only (No Rolling Stats)",
+      "features_removed": "sales_rolling_mean_4/8/13/26, sales_rolling_std_4/13/26, sales_ewm_mean_13",
+      "feature_count": 28,
+      "wape": 16.13,
+      "mae": 542.64,
+      "rmse": 1882.44,
+      "wape_delta_pp": 3.86,
+      "pct_error_increase": 31.46,
+      "criticality": "MAXIMUM CRITICALITY",
+      "business_impact": "Drastic variance explosion. Without multi-scale rolling means, models overfit to single-week noise."
+    }
+  ]
+}

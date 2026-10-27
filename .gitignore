@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# FreshBasket AI: Data & Artifacts
+# Ignore data files while keeping folder structures
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/forecasts/*
+!data/forecasts/.gitkeep
+
+# Ignore trained model artifacts
+models/trained/*
+!models/trained/.gitkeep
+
+# Generated reports & temp exports
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Streamlit runtime cache
+.streamlit/

@@ -1,0 +1,677 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-24T18:04:33.275908",
+    "raw_directory": "C:\\Users\\user\\Desktop\\freshbasket-ai\\data\\raw",
+    "total_files_inspected": 6
+  },
+  "datasets": {
+    "train.csv": {
+      "file_name": "train.csv",
+      "file_size_bytes": 121800373,
+      "file_size_formatted": "116.16 MB",
+      "row_count": 3000888,
+      "column_count": 6,
+      "estimated_memory_mb": 196.78,
+      "duplicate_rows": 0,
+      "columns": {
+        "id": {
+          "dtype": "int64",
+          "non_null_count": 3000888,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            0,
+            1,
+            2
+          ]
+        },
+        "date": {
+          "dtype": "str",
+          "non_null_count": 3000888,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "2013-01-01",
+            "2013-01-01",
+            "2013-01-01"
+          ]
+        },
+        "store_nbr": {
+          "dtype": "int64",
+          "non_null_count": 3000888,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            1,
+            1,
+            1
+          ]
+        },
+        "family": {
+          "dtype": "str",
+          "non_null_count": 3000888,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "AUTOMOTIVE",
+            "BABY CARE",
+            "BEAUTY"
+          ]
+        },
+        "sales": {
+          "dtype": "float64",
+          "non_null_count": 3000888,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "onpromotion": {
+          "dtype": "int64",
+          "non_null_count": 3000888,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "date_statistics": {
+        "min_date": "2013-01-01",
+        "max_date": "2017-08-15",
+        "calendar_span_days": 1688,
+        "unique_dates_count": 1684,
+        "missing_calendar_days_count": 4,
+        "missing_dates": [
+          "2013-12-25",
+          "2014-12-25",
+          "2015-12-25",
+          "2016-12-25"
+        ]
+      },
+      "specific_statistics": {
+        "unique_stores_count": 54,
+        "unique_families_count": 33,
+        "duplicate_date_store_family_keys": 0,
+        "grid_completeness": {
+          "observed_dates_grid_expected": 3000888,
+          "observed_dates_grid_actual": 3000888,
+          "is_observed_grid_100_percent_complete": true,
+          "full_calendar_span_grid_expected": 3008016,
+          "missing_combinations_count": 7128,
+          "missing_combinations_reason": "Store closures on Christmas Day (Dec 25 of 2013, 2014, 2015, 2016: 4 days * 54 stores * 33 families = 7,008 rows)"
+        },
+        "sales_distribution": {
+          "zero_sales_count": 939130,
+          "zero_sales_percentage": 31.3,
+          "positive_sales_count": 2061758,
+          "positive_sales_percentage": 68.7,
+          "negative_sales_count": 0,
+          "total_sales": 1073644952.2,
+          "min_sales": 0.0,
+          "max_sales": 124717.0,
+          "mean_sales": 357.7757,
+          "median_sales": 11.0,
+          "quantile_25_sales": 0.0,
+          "quantile_75_sales": 195.84725
+        },
+        "promotion_distribution": {
+          "zero_promo_count": 2389559,
+          "zero_promo_percentage": 79.63,
+          "positive_promo_count": 611329,
+          "positive_promo_percentage": 20.37,
+          "negative_promo_count": 0,
+          "total_promo_items": 7810622,
+          "min_promo": 0,
+          "max_promo": 741,
+          "mean_promo": 2.6028,
+          "median_promo": 0.0
+        },
+        "sales_by_year": {
+          "2013": 140419013.92,
+          "2014": 209474246.3,
+          "2015": 240880100.65,
+          "2016": 288654522.95,
+          "2017": 194217068.37
+        },
+        "sales_by_family": {
+          "GROCERY I": 343462734.89,
+          "BEVERAGES": 216954486.0,
+          "PRODUCE": 122704684.68,
+          "CLEANING": 97521289.0,
+          "DAIRY": 64487709.0,
+          "BREAD/BAKERY": 42133945.58,
+          "POULTRY": 31876004.47,
+          "MEATS": 31086468.4,
+          "PERSONAL CARE": 24592051.0,
+          "DELI": 24110322.47,
+          "HOME CARE": 16022744.0,
+          "EGGS": 15588296.0,
+          "FROZEN FOODS": 14073887.72,
+          "PREPARED FOODS": 8799895.12,
+          "LIQUOR,WINE,BEER": 7746640.0,
+          "SEAFOOD": 2015431.88,
+          "GROCERY II": 1962767.0,
+          "HOME AND KITCHEN I": 1861491.0,
+          "HOME AND KITCHEN II": 1520670.0,
+          "CELEBRATION": 761177.0,
+          "LINGERIE": 653114.0,
+          "LADIESWEAR": 651159.0,
+          "PLAYERS AND ELECTRONICS": 562608.0,
+          "AUTOMOTIVE": 554822.0,
+          "LAWN AND GARDEN": 548842.0,
+          "PET SUPPLIES": 356584.0,
+          "BEAUTY": 337893.0,
+          "SCHOOL AND OFFICE SUPPLIES": 269316.0,
+          "MAGAZINES": 266359.0,
+          "HARDWARE": 103470.0,
+          "HOME APPLIANCES": 41601.0,
+          "BABY CARE": 10051.0,
+          "BOOKS": 6438.0
+        }
+      },
+      "join_analysis": {
+        "suitable_join_keys": [
+          "date",
+          "store_nbr",
+          "family"
+        ],
+        "target_tables": [
+          "test.csv",
+          "stores.csv",
+          "oil.csv",
+          "holidays_events.csv",
+          "transactions.csv"
+        ],
+        "expected_cardinality": "Primary fact table"
+      }
+    },
+    "test.csv": {
+      "file_name": "test.csv",
+      "file_size_bytes": 1022269,
+      "file_size_formatted": "998.31 KB",
+      "row_count": 28512,
+      "column_count": 5,
+      "estimated_memory_mb": 1.65,
+      "duplicate_rows": 0,
+      "columns": {
+        "id": {
+          "dtype": "int64",
+          "non_null_count": 28512,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            3000888,
+            3000889,
+            3000890
+          ]
+        },
+        "date": {
+          "dtype": "str",
+          "non_null_count": 28512,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "2017-08-16",
+            "2017-08-16",
+            "2017-08-16"
+          ]
+        },
+        "store_nbr": {
+          "dtype": "int64",
+          "non_null_count": 28512,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            1,
+            1,
+            1
+          ]
+        },
+        "family": {
+          "dtype": "str",
+          "non_null_count": 28512,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "AUTOMOTIVE",
+            "BABY CARE",
+            "BEAUTY"
+          ]
+        },
+        "onpromotion": {
+          "dtype": "int64",
+          "non_null_count": 28512,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            0,
+            0,
+            2
+          ]
+        }
+      },
+      "date_statistics": {
+        "min_date": "2017-08-16",
+        "max_date": "2017-08-31",
+        "calendar_span_days": 16,
+        "unique_dates_count": 16,
+        "missing_calendar_days_count": 0,
+        "missing_dates_sample": []
+      },
+      "specific_statistics": {
+        "unique_stores": 54,
+        "unique_families": 33,
+        "unique_dates": 16,
+        "theoretical_grid_size": 28512,
+        "duplicate_date_store_family_keys": 0,
+        "zero_promo_count": 15943,
+        "positive_promo_count": 12569,
+        "max_promo": 646,
+        "mean_promo": 6.9654,
+        "median_promo": 0.0
+      },
+      "join_analysis": {
+        "suitable_join_keys": [
+          "date",
+          "store_nbr",
+          "family"
+        ],
+        "target_tables": [
+          "train.csv",
+          "forecasts"
+        ],
+        "expected_cardinality": "One-to-One",
+        "potential_duplicate_risk": "None (clean primary key grid)"
+      }
+    },
+    "stores.csv": {
+      "file_name": "stores.csv",
+      "file_size_bytes": 1387,
+      "file_size_formatted": "1.35 KB",
+      "row_count": 54,
+      "column_count": 5,
+      "estimated_memory_mb": 0.0,
+      "duplicate_rows": 0,
+      "columns": {
+        "store_nbr": {
+          "dtype": "int64",
+          "non_null_count": 54,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            1,
+            2,
+            3
+          ]
+        },
+        "city": {
+          "dtype": "str",
+          "non_null_count": 54,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "Quito",
+            "Quito",
+            "Quito"
+          ]
+        },
+        "state": {
+          "dtype": "str",
+          "non_null_count": 54,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "Pichincha",
+            "Pichincha",
+            "Pichincha"
+          ]
+        },
+        "type": {
+          "dtype": "str",
+          "non_null_count": 54,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "D",
+            "D",
+            "D"
+          ]
+        },
+        "cluster": {
+          "dtype": "int64",
+          "non_null_count": 54,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            13,
+            13,
+            8
+          ]
+        }
+      },
+      "date_statistics": {},
+      "specific_statistics": {
+        "unique_stores": 54,
+        "store_nbr_range": [
+          1,
+          54
+        ],
+        "unique_cities_count": 22,
+        "unique_states_count": 16,
+        "store_types": {
+          "D": 18,
+          "C": 15,
+          "A": 9,
+          "B": 8,
+          "E": 4
+        },
+        "clusters_count": 17,
+        "duplicate_store_nbr_keys": 0
+      },
+      "join_analysis": {
+        "suitable_join_keys": [
+          "store_nbr"
+        ],
+        "target_tables": [
+          "train.csv",
+          "test.csv",
+          "transactions.csv"
+        ],
+        "expected_cardinality": "One-to-Many",
+        "potential_duplicate_risk": "Low (store_nbr is unique primary key)"
+      }
+    },
+    "transactions.csv": {
+      "file_name": "transactions.csv",
+      "file_size_bytes": 1552637,
+      "file_size_formatted": "1.48 MB",
+      "row_count": 83488,
+      "column_count": 3,
+      "estimated_memory_mb": 2.71,
+      "duplicate_rows": 0,
+      "columns": {
+        "date": {
+          "dtype": "str",
+          "non_null_count": 83488,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "2013-01-01",
+            "2013-01-02",
+            "2013-01-02"
+          ]
+        },
+        "store_nbr": {
+          "dtype": "int64",
+          "non_null_count": 83488,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            25,
+            1,
+            2
+          ]
+        },
+        "transactions": {
+          "dtype": "int64",
+          "non_null_count": 83488,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            770,
+            2111,
+            2358
+          ]
+        }
+      },
+      "date_statistics": {
+        "min_date": "2013-01-01",
+        "max_date": "2017-08-15",
+        "calendar_span_days": 1688,
+        "unique_dates_count": 1682,
+        "missing_calendar_days_count": 6,
+        "missing_dates_sample": [
+          "2013-12-25",
+          "2014-12-25",
+          "2015-12-25",
+          "2016-01-01",
+          "2016-01-03",
+          "2016-12-25"
+        ]
+      },
+      "specific_statistics": {
+        "unique_stores": 54,
+        "unique_dates": 1682,
+        "min_transactions": 5,
+        "max_transactions": 8359,
+        "mean_transactions": 1694.6,
+        "median_transactions": 1393.0,
+        "total_transactions": 141478945,
+        "duplicate_date_store_pairs": 0
+      },
+      "join_analysis": {
+        "suitable_join_keys": [
+          "date",
+          "store_nbr"
+        ],
+        "target_tables": [
+          "train.csv"
+        ],
+        "expected_cardinality": "One-to-Many (one store transaction count mapped to 33 product families)",
+        "potential_duplicate_risk": "Low on duplicates, but transactions are completely missing in test.csv (cannot use as concurrent feature)."
+      }
+    },
+    "oil.csv": {
+      "file_name": "oil.csv",
+      "file_size_bytes": 20580,
+      "file_size_formatted": "20.10 KB",
+      "row_count": 1218,
+      "column_count": 2,
+      "estimated_memory_mb": 0.03,
+      "duplicate_rows": 0,
+      "columns": {
+        "date": {
+          "dtype": "str",
+          "non_null_count": 1218,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "2013-01-01",
+            "2013-01-02",
+            "2013-01-03"
+          ]
+        },
+        "dcoilwtico": {
+          "dtype": "float64",
+          "non_null_count": 1175,
+          "null_count": 43,
+          "null_percentage": 3.53,
+          "sample_values": [
+            93.14,
+            92.97,
+            93.12
+          ]
+        }
+      },
+      "date_statistics": {
+        "min_date": "2013-01-01",
+        "max_date": "2017-08-31",
+        "calendar_span_days": 1704,
+        "unique_dates_count": 1218,
+        "missing_calendar_days_count": 486,
+        "missing_dates_sample": [
+          "2013-01-05",
+          "2013-01-06",
+          "2013-01-12",
+          "2013-01-13",
+          "2013-01-19",
+          "2013-01-20",
+          "2013-01-26",
+          "2013-01-27",
+          "2013-02-02",
+          "2013-02-03"
+        ]
+      },
+      "specific_statistics": {
+        "total_oil_records": 1218,
+        "missing_oil_price_count": 43,
+        "missing_oil_price_pct": 3.53,
+        "min_oil_price": 26.19,
+        "max_oil_price": 110.62,
+        "mean_oil_price": 67.71,
+        "duplicate_date_keys": 0
+      },
+      "join_analysis": {
+        "suitable_join_keys": [
+          "date"
+        ],
+        "target_tables": [
+          "train.csv",
+          "test.csv"
+        ],
+        "expected_cardinality": "One-to-Many (one oil price mapped to multiple store-family rows)",
+        "potential_duplicate_risk": "Low on duplicates (date is unique), High on missing values (weekends/holidays require ffill)"
+      }
+    },
+    "holidays_events.csv": {
+      "file_name": "holidays_events.csv",
+      "file_size_bytes": 22309,
+      "file_size_formatted": "21.79 KB",
+      "row_count": 350,
+      "column_count": 6,
+      "estimated_memory_mb": 0.03,
+      "duplicate_rows": 0,
+      "columns": {
+        "date": {
+          "dtype": "str",
+          "non_null_count": 350,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "2012-03-02",
+            "2012-04-01",
+            "2012-04-12"
+          ]
+        },
+        "type": {
+          "dtype": "str",
+          "non_null_count": 350,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "Holiday",
+            "Holiday",
+            "Holiday"
+          ]
+        },
+        "locale": {
+          "dtype": "str",
+          "non_null_count": 350,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "Local",
+            "Regional",
+            "Local"
+          ]
+        },
+        "locale_name": {
+          "dtype": "str",
+          "non_null_count": 350,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "Manta",
+            "Cotopaxi",
+            "Cuenca"
+          ]
+        },
+        "description": {
+          "dtype": "str",
+          "non_null_count": 350,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            "Fundacion de Manta",
+            "Provincializacion de Cotopaxi",
+            "Fundacion de Cuenca"
+          ]
+        },
+        "transferred": {
+          "dtype": "bool",
+          "non_null_count": 350,
+          "null_count": 0,
+          "null_percentage": 0.0,
+          "sample_values": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "date_statistics": {
+        "min_date": "2012-03-02",
+        "max_date": "2017-12-26",
+        "calendar_span_days": 2126,
+        "unique_dates_count": 312,
+        "missing_calendar_days_count": 1814,
+        "missing_dates_sample": [
+          "2012-03-03",
+          "2012-03-04",
+          "2012-03-05",
+          "2012-03-06",
+          "2012-03-07",
+          "2012-03-08",
+          "2012-03-09",
+          "2012-03-10",
+          "2012-03-11",
+          "2012-03-12"
+        ]
+      },
+      "specific_statistics": {
+        "unique_holiday_dates": 312,
+        "duplicate_dates_count": 31,
+        "excess_rows_on_duplicate_dates": 38,
+        "transferred_holidays_count": 12,
+        "types_distribution": {
+          "Holiday": 221,
+          "Event": 56,
+          "Additional": 51,
+          "Transfer": 12,
+          "Bridge": 5,
+          "Work Day": 5
+        },
+        "locale_distribution": {
+          "National": 174,
+          "Local": 152,
+          "Regional": 24
+        },
+        "transferred_distribution": {
+          "False": 338,
+          "True": 12
+        }
+      },
+      "join_analysis": {
+        "suitable_join_keys": [
+          "date"
+        ],
+        "secondary_keys": [
+          "locale",
+          "locale_name"
+        ],
+        "target_tables": [
+          "train.csv",
+          "test.csv"
+        ],
+        "expected_cardinality": "Many-to-Many if joined directly on date",
+        "potential_duplicate_risk": "CRITICAL RISK: Multiple holidays on same date causes row explosion. Must aggregate into flags first."
+      }
+    }
+  }
+}

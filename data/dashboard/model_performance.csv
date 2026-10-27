@@ -1,0 +1,43 @@
+model,granularity,segment,forecast_horizon_week,observations,mae,rmse,wape,rmsle
+LightGBM,global,Overall,all_13_weeks,23166,412.74,1441.24,12.27,1.1363
+Naive,global,Overall,all_13_weeks,23166,390.49,1306.86,11.61,0.5606
+Seasonal Naive,global,Overall,all_13_weeks,23166,544.02,2260.38,16.17,1.087
+LightGBM,horizon_week,Week 1,1,1782,355.16,1288.43,10.35,0.5801
+Naive,horizon_week,Week 1,1,1782,320.41,1002.36,9.34,0.4147
+Seasonal Naive,horizon_week,Week 1,1,1782,564.72,2274.37,16.46,1.079
+LightGBM,horizon_week,Week 10,10,1782,384.68,1360.14,11.93,1.149
+Naive,horizon_week,Week 10,10,1782,377.16,1205.87,11.7,0.5589
+Seasonal Naive,horizon_week,Week 10,10,1782,565.08,2315.25,17.53,1.1024
+LightGBM,horizon_week,Week 11,11,1782,488.78,1623.48,14.71,1.1636
+Naive,horizon_week,Week 11,11,1782,393.5,1182.52,11.84,0.5838
+Seasonal Naive,horizon_week,Week 11,11,1782,576.66,2346.66,17.35,1.138
+LightGBM,horizon_week,Week 12,12,1782,525.82,1811.05,14.62,1.2841
+Naive,horizon_week,Week 12,12,1782,534.99,1696.17,14.87,0.634
+Seasonal Naive,horizon_week,Week 12,12,1782,581.34,2323.57,16.16,1.105
+LightGBM,horizon_week,Week 13,13,1782,592.45,1580.92,19.6,1.4492
+Naive,horizon_week,Week 13,13,1782,468.48,1433.22,15.5,0.696
+Seasonal Naive,horizon_week,Week 13,13,1782,440.33,1972.23,14.57,1.0848
+LightGBM,horizon_week,Week 2,2,1782,312.08,1082.76,9.51,0.7565
+Naive,horizon_week,Week 2,2,1782,265.04,831.28,8.08,0.4858
+Seasonal Naive,horizon_week,Week 2,2,1782,494.35,2087.37,15.07,1.0885
+LightGBM,horizon_week,Week 3,3,1782,514.84,1960.3,13.87,1.0067
+Naive,horizon_week,Week 3,3,1782,602.69,1971.07,16.24,0.5247
+Seasonal Naive,horizon_week,Week 3,3,1782,501.86,2219.69,13.52,1.0943
+LightGBM,horizon_week,Week 4,4,1782,362.52,1273.72,10.37,1.2413
+Naive,horizon_week,Week 4,4,1782,443.49,1577.54,12.68,0.5362
+Seasonal Naive,horizon_week,Week 4,4,1782,735.7,2774.83,21.04,1.0732
+LightGBM,horizon_week,Week 5,5,1782,327.52,1233.71,9.99,1.1558
+Naive,horizon_week,Week 5,5,1782,272.72,1015.83,8.32,0.5353
+Seasonal Naive,horizon_week,Week 5,5,1782,529.23,2319.56,16.15,1.0735
+LightGBM,horizon_week,Week 6,6,1782,345.6,1142.21,10.67,1.1486
+Naive,horizon_week,Week 6,6,1782,277.12,901.35,8.56,0.5809
+Seasonal Naive,horizon_week,Week 6,6,1782,487.26,1937.96,15.04,1.066
+LightGBM,horizon_week,Week 7,7,1782,477.86,1669.33,13.95,1.0938
+Naive,horizon_week,Week 7,7,1782,378.2,1189.0,11.04,0.5584
+Seasonal Naive,horizon_week,Week 7,7,1782,487.37,2134.46,14.22,1.0791
+LightGBM,horizon_week,Week 8,8,1782,332.15,1118.65,9.54,1.2822
+Naive,horizon_week,Week 8,8,1782,409.11,1311.93,11.75,0.5583
+Seasonal Naive,horizon_week,Week 8,8,1782,573.45,2354.56,16.46,1.0731
+LightGBM,horizon_week,Week 9,9,1782,346.21,1255.39,10.73,1.1842
+Naive,horizon_week,Week 9,9,1782,333.46,1170.62,10.34,0.5719
+Seasonal Naive,horizon_week,Week 9,9,1782,534.91,2207.43,16.58,1.0728

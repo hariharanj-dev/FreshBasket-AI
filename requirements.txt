@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+pandas
+numpy
+scipy
+scikit-learn
+lightgbm
+joblib
+streamlit
+plotly
+matplotlib
+pytest

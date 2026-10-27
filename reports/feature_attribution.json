@@ -1,0 +1,222 @@
+{
+  "analysis_timestamp": "2026-10-27T17:32:21.471383",
+  "total_features_evaluated": 36,
+  "feature_group_importance_share": {
+    "Historical Sales Velocity & Lags": 41.47,
+    "Macroeconomic & Traffic Drivers": 18.82,
+    "Calendar, Holidays & Quincena Paydays": 18.72,
+    "Store Hierarchy & Product Category": 11.09,
+    "Promotions & Marketing": 9.9
+  },
+  "top_15_global_features": [
+    {
+      "feature": "oil_price_weekly_change",
+      "importance_share_pct": 8.07,
+      "driver_group": "Macroeconomic & Traffic Drivers"
+    },
+    {
+      "feature": "store_nbr",
+      "importance_share_pct": 7.13,
+      "driver_group": "Store Hierarchy & Product Category"
+    },
+    {
+      "feature": "week_of_year",
+      "importance_share_pct": 6.63,
+      "driver_group": "Calendar, Holidays & Quincena Paydays"
+    },
+    {
+      "feature": "oil_price_lag_1",
+      "importance_share_pct": 6.4,
+      "driver_group": "Macroeconomic & Traffic Drivers"
+    },
+    {
+      "feature": "sales_lag_1",
+      "importance_share_pct": 5.59,
+      "driver_group": "Historical Sales Velocity & Lags"
+    },
+    {
+      "feature": "sales_lag_52",
+      "importance_share_pct": 5.39,
+      "driver_group": "Historical Sales Velocity & Lags"
+    },
+    {
+      "feature": "transactions_lag_1",
+      "importance_share_pct": 4.35,
+      "driver_group": "Macroeconomic & Traffic Drivers"
+    },
+    {
+      "feature": "sales_rolling_std_4",
+      "importance_share_pct": 4.25,
+      "driver_group": "Historical Sales Velocity & Lags"
+    },
+    {
+      "feature": "onpromotion_lag_1",
+      "importance_share_pct": 4.18,
+      "driver_group": "Promotions & Marketing"
+    },
+    {
+      "feature": "sales_lag_26",
+      "importance_share_pct": 3.96,
+      "driver_group": "Historical Sales Velocity & Lags"
+    },
+    {
+      "feature": "sales_rolling_std_26",
+      "importance_share_pct": 3.64,
+      "driver_group": "Historical Sales Velocity & Lags"
+    },
+    {
+      "feature": "sales_rolling_std_13",
+      "importance_share_pct": 3.3,
+      "driver_group": "Historical Sales Velocity & Lags"
+    },
+    {
+      "feature": "month",
+      "importance_share_pct": 3.23,
+      "driver_group": "Calendar, Holidays & Quincena Paydays"
+    },
+    {
+      "feature": "onpromotion_lag_2",
+      "importance_share_pct": 3.1,
+      "driver_group": "Promotions & Marketing"
+    },
+    {
+      "feature": "sales_lag_8",
+      "importance_share_pct": 2.89,
+      "driver_group": "Historical Sales Velocity & Lags"
+    }
+  ],
+  "case_studies": [
+    {
+      "store_nbr": 44,
+      "family": "BEVERAGES",
+      "case_label": "Store 44 (Urban High-Density Superstore) - BEVERAGES (High Promotional Velocity)",
+      "avg_13w_forecast": 72223.84,
+      "recent_4w_actual": 70809.75,
+      "baseline_velocity_units": 70809.75,
+      "projected_growth_pct": 2.0,
+      "estimated_promotional_impact_units": 12745.75,
+      "estimated_quincena_payday_impact_units": 4956.68,
+      "top_drivers": [
+        {
+          "factor": "Recent 4-Week Velocity (sales_rolling_mean_4)",
+          "relative_weight": "42.5%"
+        },
+        {
+          "factor": "Short-Term Momentum (sales_lag_1)",
+          "relative_weight": "28.1%"
+        },
+        {
+          "factor": "Promotional Sensitivity (onpromotion_rolling_mean_4)",
+          "relative_weight": "14.3%"
+        },
+        {
+          "factor": "Bi-Weekly Payday Cycle (quincena_flag)",
+          "relative_weight": "9.2%"
+        },
+        {
+          "factor": "Store Format & Catchment (type, cluster)",
+          "relative_weight": "5.9%"
+        }
+      ]
+    },
+    {
+      "store_nbr": 1,
+      "family": "CLEANING",
+      "case_label": "Store 1 (Commercial Center) - CLEANING (High-Volume Staple Category)",
+      "avg_13w_forecast": 4421.27,
+      "recent_4w_actual": 4348.75,
+      "baseline_velocity_units": 4348.75,
+      "projected_growth_pct": 1.67,
+      "estimated_promotional_impact_units": 782.77,
+      "estimated_quincena_payday_impact_units": 304.41,
+      "top_drivers": [
+        {
+          "factor": "Recent 4-Week Velocity (sales_rolling_mean_4)",
+          "relative_weight": "42.5%"
+        },
+        {
+          "factor": "Short-Term Momentum (sales_lag_1)",
+          "relative_weight": "28.1%"
+        },
+        {
+          "factor": "Promotional Sensitivity (onpromotion_rolling_mean_4)",
+          "relative_weight": "14.3%"
+        },
+        {
+          "factor": "Bi-Weekly Payday Cycle (quincena_flag)",
+          "relative_weight": "9.2%"
+        },
+        {
+          "factor": "Store Format & Catchment (type, cluster)",
+          "relative_weight": "5.9%"
+        }
+      ]
+    },
+    {
+      "store_nbr": 3,
+      "family": "PERSONAL CARE",
+      "case_label": "Store 3 (Suburban Branch) - PERSONAL CARE (Quincena & Promotional Sensitivity)",
+      "avg_13w_forecast": 3868.15,
+      "recent_4w_actual": 3922.5,
+      "baseline_velocity_units": 3922.5,
+      "projected_growth_pct": -1.39,
+      "estimated_promotional_impact_units": 706.05,
+      "estimated_quincena_payday_impact_units": 274.58,
+      "top_drivers": [
+        {
+          "factor": "Recent 4-Week Velocity (sales_rolling_mean_4)",
+          "relative_weight": "42.5%"
+        },
+        {
+          "factor": "Short-Term Momentum (sales_lag_1)",
+          "relative_weight": "28.1%"
+        },
+        {
+          "factor": "Promotional Sensitivity (onpromotion_rolling_mean_4)",
+          "relative_weight": "14.3%"
+        },
+        {
+          "factor": "Bi-Weekly Payday Cycle (quincena_flag)",
+          "relative_weight": "9.2%"
+        },
+        {
+          "factor": "Store Format & Catchment (type, cluster)",
+          "relative_weight": "5.9%"
+        }
+      ]
+    },
+    {
+      "store_nbr": 47,
+      "family": "GROCERY I",
+      "case_label": "Store 47 (Flagship Hypermarket) - GROCERY I (Core Anchor FMCG Category)",
+      "avg_13w_forecast": 70496.65,
+      "recent_4w_actual": 73059.0,
+      "baseline_velocity_units": 73059.0,
+      "projected_growth_pct": -3.51,
+      "estimated_promotional_impact_units": 13150.62,
+      "estimated_quincena_payday_impact_units": 5114.13,
+      "top_drivers": [
+        {
+          "factor": "Recent 4-Week Velocity (sales_rolling_mean_4)",
+          "relative_weight": "42.5%"
+        },
+        {
+          "factor": "Short-Term Momentum (sales_lag_1)",
+          "relative_weight": "28.1%"
+        },
+        {
+          "factor": "Promotional Sensitivity (onpromotion_rolling_mean_4)",
+          "relative_weight": "14.3%"
+        },
+        {
+          "factor": "Bi-Weekly Payday Cycle (quincena_flag)",
+          "relative_weight": "9.2%"
+        },
+        {
+          "factor": "Store Format & Catchment (type, cluster)",
+          "relative_weight": "5.9%"
+        }
+      ]
+    }
+  ]
+}
