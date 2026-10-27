@@ -77,7 +77,7 @@ freshbasket-ai/
    - Compute key FMCG metrics (reorder points, safety stock, revenue impact).
    - Generate feature attribution and decision drivers.
 
-6. **Phase 6: Interactive Streamlit Dashboard**
+6. **Phase 6: Interactive Dashboard**
    - Build multi-page dashboard with Plotly charts for interactive forecasting and scenario simulation.
 
 7. **Phase 7: Testing & Documentation**
