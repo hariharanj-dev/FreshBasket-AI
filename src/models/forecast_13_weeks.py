@@ -104,7 +104,15 @@ def add_calibrated_prediction_intervals(
     df_forecast["upper_bound_95"] = upper_95
     df_forecast["uncertainty_range_80"] = unc_80
     df_forecast["uncertainty_range_95"] = unc_95
+
+    # Standardized evaluation aliases (date, market_id, sku_id, forecast, uncertainty)
+    df_forecast["date"] = df_forecast["week_start_date"]
+    df_forecast["market_id"] = df_forecast["store_nbr"]
+    df_forecast["sku_id"] = df_forecast["family"]
+    df_forecast["forecast"] = df_forecast["predicted_sales"]
+    df_forecast["uncertainty"] = df_forecast["uncertainty_range_95"]
     return df_forecast
+
 
 
 def get_last_complete_week(df: pd.DataFrame) -> Tuple[str, str]:

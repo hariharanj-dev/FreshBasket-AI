@@ -35,6 +35,9 @@ data/processed/*
 !data/processed/.gitkeep
 data/forecasts/*
 !data/forecasts/.gitkeep
+!data/forecasts/forecast_13_weeks.csv
+!data/forecasts/model_metrics.csv
+
 
 # Ignore trained model artifacts
 models/trained/*

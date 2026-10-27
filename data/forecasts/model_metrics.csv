@@ -1,0 +1,304 @@
+model,granularity,segment,forecast_horizon_week,observations,mae,rmse,wape,rmsle
+Naive,global,Overall,all_13_weeks,23166,390.49,1306.86,11.61,0.5606
+Seasonal Naive,global,Overall,all_13_weeks,23166,544.02,2260.38,16.17,1.087
+LightGBM,global,Overall,all_13_weeks,23166,412.74,1441.24,12.27,1.1363
+Naive,horizon_week,Week 1,1,1782,320.41,1002.36,9.34,0.4147
+Seasonal Naive,horizon_week,Week 1,1,1782,564.72,2274.37,16.46,1.079
+LightGBM,horizon_week,Week 1,1,1782,355.16,1288.43,10.35,0.5801
+Naive,horizon_week,Week 2,2,1782,265.04,831.28,8.08,0.4858
+Seasonal Naive,horizon_week,Week 2,2,1782,494.35,2087.37,15.07,1.0885
+LightGBM,horizon_week,Week 2,2,1782,312.08,1082.76,9.51,0.7565
+Naive,horizon_week,Week 3,3,1782,602.69,1971.07,16.24,0.5247
+Seasonal Naive,horizon_week,Week 3,3,1782,501.86,2219.69,13.52,1.0943
+LightGBM,horizon_week,Week 3,3,1782,514.84,1960.3,13.87,1.0067
+Naive,horizon_week,Week 4,4,1782,443.49,1577.54,12.68,0.5362
+Seasonal Naive,horizon_week,Week 4,4,1782,735.7,2774.83,21.04,1.0732
+LightGBM,horizon_week,Week 4,4,1782,362.52,1273.72,10.37,1.2413
+Naive,horizon_week,Week 5,5,1782,272.72,1015.83,8.32,0.5353
+Seasonal Naive,horizon_week,Week 5,5,1782,529.23,2319.56,16.15,1.0735
+LightGBM,horizon_week,Week 5,5,1782,327.52,1233.71,9.99,1.1558
+Naive,horizon_week,Week 6,6,1782,277.12,901.35,8.56,0.5809
+Seasonal Naive,horizon_week,Week 6,6,1782,487.26,1937.96,15.04,1.066
+LightGBM,horizon_week,Week 6,6,1782,345.6,1142.21,10.67,1.1486
+Naive,horizon_week,Week 7,7,1782,378.2,1189.0,11.04,0.5584
+Seasonal Naive,horizon_week,Week 7,7,1782,487.37,2134.46,14.22,1.0791
+LightGBM,horizon_week,Week 7,7,1782,477.86,1669.33,13.95,1.0938
+Naive,horizon_week,Week 8,8,1782,409.11,1311.93,11.75,0.5583
+Seasonal Naive,horizon_week,Week 8,8,1782,573.45,2354.56,16.46,1.0731
+LightGBM,horizon_week,Week 8,8,1782,332.15,1118.65,9.54,1.2822
+Naive,horizon_week,Week 9,9,1782,333.46,1170.62,10.34,0.5719
+Seasonal Naive,horizon_week,Week 9,9,1782,534.91,2207.43,16.58,1.0728
+LightGBM,horizon_week,Week 9,9,1782,346.21,1255.39,10.73,1.1842
+Naive,horizon_week,Week 10,10,1782,377.16,1205.87,11.7,0.5589
+Seasonal Naive,horizon_week,Week 10,10,1782,565.08,2315.25,17.53,1.1024
+LightGBM,horizon_week,Week 10,10,1782,384.68,1360.14,11.93,1.149
+Naive,horizon_week,Week 11,11,1782,393.5,1182.52,11.84,0.5838
+Seasonal Naive,horizon_week,Week 11,11,1782,576.66,2346.66,17.35,1.138
+LightGBM,horizon_week,Week 11,11,1782,488.78,1623.48,14.71,1.1636
+Naive,horizon_week,Week 12,12,1782,534.99,1696.17,14.87,0.634
+Seasonal Naive,horizon_week,Week 12,12,1782,581.34,2323.57,16.16,1.105
+LightGBM,horizon_week,Week 12,12,1782,525.82,1811.05,14.62,1.2841
+Naive,horizon_week,Week 13,13,1782,468.48,1433.22,15.5,0.696
+Seasonal Naive,horizon_week,Week 13,13,1782,440.33,1972.23,14.57,1.0848
+LightGBM,horizon_week,Week 13,13,1782,592.45,1580.92,19.6,1.4492
+Naive,store_nbr,Store 1,all_13_weeks,429,181.23,479.83,8.08,0.4112
+Seasonal Naive,store_nbr,Store 1,all_13_weeks,429,224.11,580.02,9.99,0.4832
+LightGBM,store_nbr,Store 1,all_13_weeks,429,198.25,464.28,8.84,1.018
+Naive,store_nbr,Store 2,all_13_weeks,429,292.65,730.41,9.11,0.4709
+Seasonal Naive,store_nbr,Store 2,all_13_weeks,429,236.17,671.8,7.35,0.478
+LightGBM,store_nbr,Store 2,all_13_weeks,429,318.68,798.38,9.92,1.2676
+Naive,store_nbr,Store 3,all_13_weeks,429,667.34,1813.63,8.48,0.4312
+Seasonal Naive,store_nbr,Store 3,all_13_weeks,429,663.23,2160.06,8.43,0.5244
+LightGBM,store_nbr,Store 3,all_13_weeks,429,667.56,1885.31,8.48,0.9925
+Naive,store_nbr,Store 4,all_13_weeks,429,218.68,583.55,7.96,0.3827
+Seasonal Naive,store_nbr,Store 4,all_13_weeks,429,192.46,466.35,7.0,0.5044
+LightGBM,store_nbr,Store 4,all_13_weeks,429,246.59,659.45,8.97,0.9843
+Naive,store_nbr,Store 5,all_13_weeks,429,187.05,457.91,8.68,0.5724
+Seasonal Naive,store_nbr,Store 5,all_13_weeks,429,193.77,489.02,8.99,0.6976
+LightGBM,store_nbr,Store 5,all_13_weeks,429,219.62,536.17,10.19,0.765
+Naive,store_nbr,Store 6,all_13_weeks,429,374.7,948.56,9.86,0.3149
+Seasonal Naive,store_nbr,Store 6,all_13_weeks,429,288.64,689.67,7.6,0.4618
+LightGBM,store_nbr,Store 6,all_13_weeks,429,332.27,843.01,8.74,1.1526
+Naive,store_nbr,Store 7,all_13_weeks,429,371.8,1080.12,8.67,0.3715
+Seasonal Naive,store_nbr,Store 7,all_13_weeks,429,307.16,760.79,7.17,0.4836
+LightGBM,store_nbr,Store 7,all_13_weeks,429,332.26,889.45,7.75,1.1074
+Naive,store_nbr,Store 8,all_13_weeks,429,341.59,845.17,7.21,0.5006
+Seasonal Naive,store_nbr,Store 8,all_13_weeks,429,350.88,900.47,7.41,0.4881
+LightGBM,store_nbr,Store 8,all_13_weeks,429,341.73,880.64,7.22,1.1829
+Naive,store_nbr,Store 9,all_13_weeks,429,489.45,1561.39,12.55,0.504
+Seasonal Naive,store_nbr,Store 9,all_13_weeks,429,363.92,1055.19,9.33,0.4739
+LightGBM,store_nbr,Store 9,all_13_weeks,429,453.78,1363.67,11.63,0.6798
+Naive,store_nbr,Store 10,all_13_weeks,429,188.44,614.64,13.81,0.4462
+Seasonal Naive,store_nbr,Store 10,all_13_weeks,429,174.6,570.35,12.8,0.5436
+LightGBM,store_nbr,Store 10,all_13_weeks,429,162.73,476.63,11.93,0.8598
+Naive,store_nbr,Store 11,all_13_weeks,429,637.23,1922.24,15.03,0.5389
+Seasonal Naive,store_nbr,Store 11,all_13_weeks,429,495.24,1533.56,11.68,0.4727
+LightGBM,store_nbr,Store 11,all_13_weeks,429,498.63,1591.15,11.76,0.6067
+Naive,store_nbr,Store 12,all_13_weeks,429,288.42,1018.46,17.23,0.5673
+Seasonal Naive,store_nbr,Store 12,all_13_weeks,429,221.29,696.44,13.22,0.9855
+LightGBM,store_nbr,Store 12,all_13_weeks,429,196.93,549.63,11.77,0.9364
+Naive,store_nbr,Store 13,all_13_weeks,429,205.82,638.89,13.95,0.5707
+Seasonal Naive,store_nbr,Store 13,all_13_weeks,429,181.16,617.19,12.28,0.6487
+LightGBM,store_nbr,Store 13,all_13_weeks,429,184.76,565.1,12.52,0.8401
+Naive,store_nbr,Store 14,all_13_weeks,429,364.37,1376.4,20.56,0.5234
+Seasonal Naive,store_nbr,Store 14,all_13_weeks,429,294.69,1131.76,16.62,0.7322
+LightGBM,store_nbr,Store 14,all_13_weeks,429,276.28,877.28,15.59,0.8034
+Naive,store_nbr,Store 15,all_13_weeks,429,162.8,481.73,9.7,0.4981
+Seasonal Naive,store_nbr,Store 15,all_13_weeks,429,223.5,661.26,13.32,0.6148
+LightGBM,store_nbr,Store 15,all_13_weeks,429,171.18,477.67,10.2,0.6821
+Naive,store_nbr,Store 16,all_13_weeks,429,261.63,1070.42,18.02,0.9923
+Seasonal Naive,store_nbr,Store 16,all_13_weeks,429,262.45,1029.16,18.07,0.6538
+LightGBM,store_nbr,Store 16,all_13_weeks,429,255.94,1088.44,17.62,1.1845
+Naive,store_nbr,Store 17,all_13_weeks,429,325.43,929.59,10.76,0.6322
+Seasonal Naive,store_nbr,Store 17,all_13_weeks,429,211.3,621.12,6.98,0.6303
+LightGBM,store_nbr,Store 17,all_13_weeks,429,262.1,668.79,8.66,1.3102
+Naive,store_nbr,Store 18,all_13_weeks,429,217.29,594.29,9.46,0.4522
+Seasonal Naive,store_nbr,Store 18,all_13_weeks,429,305.43,842.85,13.3,0.6496
+LightGBM,store_nbr,Store 18,all_13_weeks,429,215.81,631.35,9.39,0.8525
+Naive,store_nbr,Store 19,all_13_weeks,429,192.39,593.3,9.8,0.4369
+Seasonal Naive,store_nbr,Store 19,all_13_weeks,429,270.26,892.24,13.77,0.5657
+LightGBM,store_nbr,Store 19,all_13_weeks,429,202.99,581.53,10.34,1.0534
+Naive,store_nbr,Store 20,all_13_weeks,429,501.18,1627.84,14.7,0.523
+Seasonal Naive,store_nbr,Store 20,all_13_weeks,429,848.69,3051.23,24.9,0.5859
+LightGBM,store_nbr,Store 20,all_13_weeks,429,463.91,1517.46,13.61,1.1673
+Naive,store_nbr,Store 21,all_13_weeks,429,462.82,1350.19,16.18,0.606
+Seasonal Naive,store_nbr,Store 21,all_13_weeks,429,593.53,1675.23,20.75,0.5619
+LightGBM,store_nbr,Store 21,all_13_weeks,429,425.17,1333.86,14.87,1.2912
+Naive,store_nbr,Store 22,all_13_weeks,429,204.37,603.41,13.95,0.5345
+Seasonal Naive,store_nbr,Store 22,all_13_weeks,429,359.88,1052.38,24.57,0.744
+LightGBM,store_nbr,Store 22,all_13_weeks,429,235.02,652.59,16.04,1.167
+Naive,store_nbr,Store 23,all_13_weeks,429,150.7,322.49,8.67,0.5265
+Seasonal Naive,store_nbr,Store 23,all_13_weeks,429,169.44,461.09,9.75,0.46
+LightGBM,store_nbr,Store 23,all_13_weeks,429,158.6,357.75,9.12,0.8516
+Naive,store_nbr,Store 24,all_13_weeks,429,291.57,776.25,7.65,0.7774
+Seasonal Naive,store_nbr,Store 24,all_13_weeks,429,270.31,725.89,7.09,0.5489
+LightGBM,store_nbr,Store 24,all_13_weeks,429,371.25,855.43,9.74,1.3741
+Naive,store_nbr,Store 25,all_13_weeks,429,367.32,1122.36,21.55,0.4661
+Seasonal Naive,store_nbr,Store 25,all_13_weeks,429,261.08,708.49,15.32,0.6139
+LightGBM,store_nbr,Store 25,all_13_weeks,429,342.08,833.18,20.07,1.1836
+Naive,store_nbr,Store 26,all_13_weeks,429,186.13,548.99,17.11,0.6625
+Seasonal Naive,store_nbr,Store 26,all_13_weeks,429,166.53,473.44,15.31,0.848
+LightGBM,store_nbr,Store 26,all_13_weeks,429,173.12,463.02,15.91,0.9417
+Naive,store_nbr,Store 27,all_13_weeks,429,256.18,662.32,7.85,0.4456
+Seasonal Naive,store_nbr,Store 27,all_13_weeks,429,335.38,888.25,10.27,0.5776
+LightGBM,store_nbr,Store 27,all_13_weeks,429,282.51,759.13,8.65,1.1111
+Naive,store_nbr,Store 28,all_13_weeks,429,433.79,1312.31,13.22,0.4238
+Seasonal Naive,store_nbr,Store 28,all_13_weeks,429,455.58,1377.2,13.89,0.6067
+LightGBM,store_nbr,Store 28,all_13_weeks,429,420.26,1288.63,12.81,1.3065
+Naive,store_nbr,Store 29,all_13_weeks,429,293.33,924.66,11.03,0.474
+Seasonal Naive,store_nbr,Store 29,all_13_weeks,429,342.97,1042.76,12.9,0.6093
+LightGBM,store_nbr,Store 29,all_13_weeks,429,298.59,847.28,11.23,1.3897
+Naive,store_nbr,Store 30,all_13_weeks,429,299.71,958.04,21.5,0.8336
+Seasonal Naive,store_nbr,Store 30,all_13_weeks,429,345.47,1235.01,24.78,0.674
+LightGBM,store_nbr,Store 30,all_13_weeks,429,301.48,1043.93,21.63,1.2315
+Naive,store_nbr,Store 31,all_13_weeks,429,437.38,1377.58,14.85,0.4823
+Seasonal Naive,store_nbr,Store 31,all_13_weeks,429,425.62,1347.35,14.45,0.6703
+LightGBM,store_nbr,Store 31,all_13_weeks,429,442.4,1466.12,15.02,1.0934
+Naive,store_nbr,Store 32,all_13_weeks,429,323.53,1242.93,31.95,0.888
+Seasonal Naive,store_nbr,Store 32,all_13_weeks,429,251.39,1139.28,24.82,0.6632
+LightGBM,store_nbr,Store 32,all_13_weeks,429,396.38,1622.11,39.14,1.2218
+Naive,store_nbr,Store 33,all_13_weeks,429,299.22,1058.91,14.23,0.7903
+Seasonal Naive,store_nbr,Store 33,all_13_weeks,429,268.16,924.87,12.75,0.6847
+LightGBM,store_nbr,Store 33,all_13_weeks,429,287.74,923.58,13.68,1.4685
+Naive,store_nbr,Store 34,all_13_weeks,429,210.51,564.17,9.26,0.4573
+Seasonal Naive,store_nbr,Store 34,all_13_weeks,429,204.73,584.99,9.0,0.6354
+LightGBM,store_nbr,Store 34,all_13_weeks,429,184.93,440.21,8.13,1.0036
+Naive,store_nbr,Store 35,all_13_weeks,429,147.64,432.34,12.81,0.8332
+Seasonal Naive,store_nbr,Store 35,all_13_weeks,429,128.23,407.83,11.12,0.5866
+LightGBM,store_nbr,Store 35,all_13_weeks,429,152.04,380.62,13.19,1.048
+Naive,store_nbr,Store 36,all_13_weeks,429,286.06,991.88,11.46,0.7892
+Seasonal Naive,store_nbr,Store 36,all_13_weeks,429,316.32,1120.44,12.68,0.6726
+LightGBM,store_nbr,Store 36,all_13_weeks,429,300.21,947.56,12.03,1.2975
+Naive,store_nbr,Store 37,all_13_weeks,429,241.67,664.19,8.25,0.5714
+Seasonal Naive,store_nbr,Store 37,all_13_weeks,429,308.18,964.69,10.53,0.4316
+LightGBM,store_nbr,Store 37,all_13_weeks,429,305.2,878.89,10.42,1.1509
+Naive,store_nbr,Store 38,all_13_weeks,429,391.39,1408.32,13.77,0.42
+Seasonal Naive,store_nbr,Store 38,all_13_weeks,429,513.09,1762.41,18.05,0.5847
+LightGBM,store_nbr,Store 38,all_13_weeks,429,445.21,1560.88,15.66,1.1541
+Naive,store_nbr,Store 39,all_13_weeks,429,562.81,2026.4,15.71,0.4223
+Seasonal Naive,store_nbr,Store 39,all_13_weeks,429,717.35,2494.85,20.02,0.5165
+LightGBM,store_nbr,Store 39,all_13_weeks,429,605.27,2028.47,16.89,1.1172
+Naive,store_nbr,Store 40,all_13_weeks,429,510.93,1730.3,15.11,0.8083
+Seasonal Naive,store_nbr,Store 40,all_13_weeks,429,607.32,2146.14,17.96,0.6174
+LightGBM,store_nbr,Store 40,all_13_weeks,429,450.86,1473.22,13.33,1.536
+Naive,store_nbr,Store 41,all_13_weeks,429,482.54,1507.68,16.44,0.4467
+Seasonal Naive,store_nbr,Store 41,all_13_weeks,429,714.32,2067.46,24.33,0.5761
+LightGBM,store_nbr,Store 41,all_13_weeks,429,445.92,1399.23,15.19,1.0415
+Naive,store_nbr,Store 42,all_13_weeks,429,359.73,928.18,12.9,0.3269
+Seasonal Naive,store_nbr,Store 42,all_13_weeks,429,443.49,1188.53,15.9,0.4468
+LightGBM,store_nbr,Store 42,all_13_weeks,429,307.06,828.72,11.01,1.4522
+Naive,store_nbr,Store 43,all_13_weeks,429,590.77,1906.41,18.3,0.5961
+Seasonal Naive,store_nbr,Store 43,all_13_weeks,429,1032.45,2852.79,31.99,1.2631
+LightGBM,store_nbr,Store 43,all_13_weeks,429,559.63,1980.94,17.34,1.2577
+Naive,store_nbr,Store 44,all_13_weeks,429,783.96,2111.77,8.16,0.5201
+Seasonal Naive,store_nbr,Store 44,all_13_weeks,429,1034.99,2881.83,10.77,0.4205
+LightGBM,store_nbr,Store 44,all_13_weeks,429,975.07,2697.54,10.15,1.1912
+Naive,store_nbr,Store 45,all_13_weeks,429,898.85,2424.39,10.13,0.4839
+Seasonal Naive,store_nbr,Store 45,all_13_weeks,429,1150.95,3208.59,12.97,0.6065
+LightGBM,store_nbr,Store 45,all_13_weeks,429,1223.41,3702.56,13.79,1.1066
+Naive,store_nbr,Store 46,all_13_weeks,429,865.54,2394.33,13.01,0.4662
+Seasonal Naive,store_nbr,Store 46,all_13_weeks,429,1278.83,3832.58,19.23,0.5949
+LightGBM,store_nbr,Store 46,all_13_weeks,429,923.44,2804.41,13.88,0.9134
+Naive,store_nbr,Store 47,all_13_weeks,429,839.56,2322.66,10.23,0.4817
+Seasonal Naive,store_nbr,Store 47,all_13_weeks,429,1221.95,3618.85,14.89,0.4747
+LightGBM,store_nbr,Store 47,all_13_weeks,429,1010.05,3008.6,12.31,1.0323
+Naive,store_nbr,Store 48,all_13_weeks,429,713.94,2018.18,13.16,0.5265
+Seasonal Naive,store_nbr,Store 48,all_13_weeks,429,748.68,2063.03,13.8,0.4454
+LightGBM,store_nbr,Store 48,all_13_weeks,429,613.87,1870.89,11.31,0.8202
+Naive,store_nbr,Store 49,all_13_weeks,429,600.71,1593.09,7.96,0.4442
+Seasonal Naive,store_nbr,Store 49,all_13_weeks,429,936.19,2562.31,12.4,0.5286
+LightGBM,store_nbr,Store 49,all_13_weeks,429,546.56,1510.01,7.24,1.2183
+Naive,store_nbr,Store 50,all_13_weeks,429,510.43,1406.46,11.21,0.5907
+Seasonal Naive,store_nbr,Store 50,all_13_weeks,429,741.66,2061.35,16.29,0.5524
+LightGBM,store_nbr,Store 50,all_13_weeks,429,475.24,1254.08,10.44,0.9077
+Naive,store_nbr,Store 51,all_13_weeks,429,354.32,837.61,6.93,0.4561
+Seasonal Naive,store_nbr,Store 51,all_13_weeks,429,362.9,872.35,7.09,0.5543
+LightGBM,store_nbr,Store 51,all_13_weeks,429,460.9,1153.18,9.01,1.2029
+Naive,store_nbr,Store 52,all_13_weeks,429,424.95,1033.51,8.95,0.3989
+Seasonal Naive,store_nbr,Store 52,all_13_weeks,429,4745.78,11347.35,100.0,6.6124
+LightGBM,store_nbr,Store 52,all_13_weeks,429,1326.27,3140.26,27.95,2.2176
+Naive,store_nbr,Store 53,all_13_weeks,429,193.04,434.4,7.67,0.5074
+Seasonal Naive,store_nbr,Store 53,all_13_weeks,429,1036.89,2445.31,41.19,0.6008
+LightGBM,store_nbr,Store 53,all_13_weeks,429,299.63,674.1,11.9,1.0364
+Naive,store_nbr,Store 54,all_13_weeks,429,641.61,2578.22,29.17,0.6361
+Seasonal Naive,store_nbr,Store 54,all_13_weeks,429,578.49,2725.86,26.3,0.7221
+LightGBM,store_nbr,Store 54,all_13_weeks,429,540.82,2449.38,24.58,1.0215
+Naive,family,AUTOMOTIVE,all_13_weeks,702,13.54,18.11,26.44,0.3696
+Seasonal Naive,family,AUTOMOTIVE,all_13_weeks,702,14.26,22.55,27.84,0.7158
+LightGBM,family,AUTOMOTIVE,all_13_weeks,702,34.59,78.41,67.55,0.6152
+Naive,family,BABY CARE,all_13_weeks,702,1.15,2.34,87.3,0.6611
+Seasonal Naive,family,BABY CARE,all_13_weeks,702,1.81,3.65,138.11,0.8722
+LightGBM,family,BABY CARE,all_13_weeks,702,35.97,86.11,2741.41,2.7576
+Naive,family,BEAUTY,all_13_weeks,702,14.7,20.45,35.54,0.806
+Seasonal Naive,family,BEAUTY,all_13_weeks,702,15.74,22.0,38.07,0.9859
+LightGBM,family,BEAUTY,all_13_weeks,702,35.66,80.09,86.23,0.8955
+Naive,family,BEVERAGES,all_13_weeks,702,3429.62,4940.64,13.69,0.2025
+Seasonal Naive,family,BEVERAGES,all_13_weeks,702,5382.94,7933.59,21.49,1.4347
+LightGBM,family,BEVERAGES,all_13_weeks,702,3557.88,5097.4,14.21,0.2004
+Naive,family,BOOKS,all_13_weeks,702,0.86,2.18,350.29,0.6621
+Seasonal Naive,family,BOOKS,all_13_weeks,702,0.25,0.86,100.0,0.3818
+LightGBM,family,BOOKS,all_13_weeks,702,37.13,87.66,15067.17,2.9985
+Naive,family,BREAD/BAKERY,all_13_weeks,702,336.07,476.48,8.67,0.131
+Seasonal Naive,family,BREAD/BAKERY,all_13_weeks,702,458.41,964.05,11.83,1.1884
+LightGBM,family,BREAD/BAKERY,all_13_weeks,702,300.88,441.48,7.76,0.1135
+Naive,family,CELEBRATION,all_13_weeks,702,26.08,37.2,27.75,0.4231
+Seasonal Naive,family,CELEBRATION,all_13_weeks,702,26.56,38.89,28.25,0.7459
+LightGBM,family,CELEBRATION,all_13_weeks,702,40.14,83.83,42.71,0.5156
+Naive,family,CLEANING,all_13_weeks,702,1772.54,2729.82,19.53,0.2746
+Seasonal Naive,family,CLEANING,all_13_weeks,702,1804.75,3116.94,19.88,1.3039
+LightGBM,family,CLEANING,all_13_weeks,702,1487.35,2345.66,16.39,0.2423
+Naive,family,DAIRY,all_13_weeks,702,529.0,798.99,8.34,0.1088
+Seasonal Naive,family,DAIRY,all_13_weeks,702,638.73,1315.07,10.07,1.2313
+LightGBM,family,DAIRY,all_13_weeks,702,523.05,774.34,8.25,0.1209
+Naive,family,DELI,all_13_weeks,702,216.31,307.16,9.73,0.133
+Seasonal Naive,family,DELI,all_13_weeks,702,334.61,562.38,15.04,1.0821
+LightGBM,family,DELI,all_13_weeks,702,177.61,245.35,7.99,0.1166
+Naive,family,EGGS,all_13_weeks,702,174.96,262.98,12.45,0.2098
+Seasonal Naive,family,EGGS,all_13_weeks,702,246.32,373.48,17.53,1.0196
+LightGBM,family,EGGS,all_13_weeks,702,166.19,244.28,11.83,0.1851
+Naive,family,FROZEN FOODS,all_13_weeks,702,165.07,230.88,17.53,0.2335
+Seasonal Naive,family,FROZEN FOODS,all_13_weeks,702,146.96,352.43,15.61,1.0769
+LightGBM,family,FROZEN FOODS,all_13_weeks,702,273.15,420.5,29.01,0.4103
+Naive,family,GROCERY I,all_13_weeks,702,3155.8,4393.63,9.63,0.1406
+Seasonal Naive,family,GROCERY I,all_13_weeks,702,4683.23,8087.45,14.29,1.4583
+LightGBM,family,GROCERY I,all_13_weeks,702,3662.14,5595.65,11.17,0.1573
+Naive,family,GROCERY II,all_13_weeks,702,56.72,87.63,26.33,0.4815
+Seasonal Naive,family,GROCERY II,all_13_weeks,702,93.64,163.0,43.46,1.3319
+LightGBM,family,GROCERY II,all_13_weeks,702,72.93,171.25,33.85,0.5108
+Naive,family,HARDWARE,all_13_weeks,702,4.31,5.85,41.42,0.6352
+Seasonal Naive,family,HARDWARE,all_13_weeks,702,5.76,8.37,55.44,0.8721
+LightGBM,family,HARDWARE,all_13_weeks,702,38.6,83.25,371.19,1.6057
+Naive,family,HOME AND KITCHEN I,all_13_weeks,702,58.35,84.65,26.11,0.3624
+Seasonal Naive,family,HOME AND KITCHEN I,all_13_weeks,702,91.22,196.01,40.83,0.9505
+LightGBM,family,HOME AND KITCHEN I,all_13_weeks,702,64.7,100.09,28.96,0.3608
+Naive,family,HOME AND KITCHEN II,all_13_weeks,702,56.62,104.15,25.5,0.3961
+Seasonal Naive,family,HOME AND KITCHEN II,all_13_weeks,702,88.13,143.79,39.69,0.9767
+LightGBM,family,HOME AND KITCHEN II,all_13_weeks,702,69.12,123.99,31.13,0.4088
+Naive,family,HOME APPLIANCES,all_13_weeks,702,3.06,4.82,86.21,0.8941
+Seasonal Naive,family,HOME APPLIANCES,all_13_weeks,702,2.96,4.46,83.36,1.1141
+LightGBM,family,HOME APPLIANCES,all_13_weeks,702,40.07,85.56,1127.91,2.4161
+Naive,family,HOME CARE,all_13_weeks,702,356.02,494.62,16.66,0.2185
+Seasonal Naive,family,HOME CARE,all_13_weeks,702,334.03,573.31,15.63,1.0813
+LightGBM,family,HOME CARE,all_13_weeks,702,310.03,426.49,14.5,0.208
+Naive,family,LADIESWEAR,all_13_weeks,702,18.19,26.58,21.95,0.6205
+Seasonal Naive,family,LADIESWEAR,all_13_weeks,702,19.09,28.45,23.03,1.0913
+LightGBM,family,LADIESWEAR,all_13_weeks,702,38.97,83.9,47.04,1.5489
+Naive,family,LAWN AND GARDEN,all_13_weeks,702,154.99,238.84,136.18,1.0086
+Seasonal Naive,family,LAWN AND GARDEN,all_13_weeks,702,77.7,121.21,68.27,1.4816
+LightGBM,family,LAWN AND GARDEN,all_13_weeks,702,67.06,138.25,58.92,1.4757
+Naive,family,LINGERIE,all_13_weeks,702,18.5,27.22,38.6,0.6071
+Seasonal Naive,family,LINGERIE,all_13_weeks,702,22.53,43.07,47.01,0.978
+LightGBM,family,LINGERIE,all_13_weeks,702,43.03,88.29,89.78,0.9163
+Naive,family,"LIQUOR,WINE,BEER",all_13_weeks,702,134.46,214.19,20.28,0.3372
+Seasonal Naive,family,"LIQUOR,WINE,BEER",all_13_weeks,702,217.21,385.76,32.76,1.1098
+LightGBM,family,"LIQUOR,WINE,BEER",all_13_weeks,702,164.64,263.6,24.83,0.3997
+Naive,family,MAGAZINES,all_13_weeks,702,10.55,16.05,23.78,0.4384
+Seasonal Naive,family,MAGAZINES,all_13_weeks,702,12.24,19.32,27.58,0.7699
+LightGBM,family,MAGAZINES,all_13_weeks,702,34.5,78.59,77.76,0.9338
+Naive,family,MEATS,all_13_weeks,702,255.47,354.77,9.61,0.148
+Seasonal Naive,family,MEATS,all_13_weeks,702,362.1,817.89,13.62,1.133
+LightGBM,family,MEATS,all_13_weeks,702,273.2,518.4,10.28,0.1961
+Naive,family,PERSONAL CARE,all_13_weeks,702,432.71,627.75,19.49,0.2425
+Seasonal Naive,family,PERSONAL CARE,all_13_weeks,702,367.73,745.23,16.56,1.0876
+LightGBM,family,PERSONAL CARE,all_13_weeks,702,303.77,433.33,13.68,0.1926
+Naive,family,PET SUPPLIES,all_13_weeks,702,11.86,19.57,18.92,0.3765
+Seasonal Naive,family,PET SUPPLIES,all_13_weeks,702,21.1,31.62,33.66,1.0254
+LightGBM,family,PET SUPPLIES,all_13_weeks,702,31.12,72.75,49.64,0.7148
+Naive,family,PLAYERS AND ELECTRONICS,all_13_weeks,702,15.22,20.08,18.62,0.3672
+Seasonal Naive,family,PLAYERS AND ELECTRONICS,all_13_weeks,702,26.12,46.81,31.95,0.859
+LightGBM,family,PLAYERS AND ELECTRONICS,all_13_weeks,702,33.23,70.92,40.65,0.5356
+Naive,family,POULTRY,all_13_weeks,702,251.92,441.62,9.09,0.1309
+Seasonal Naive,family,POULTRY,all_13_weeks,702,316.65,615.68,11.42,1.1217
+LightGBM,family,POULTRY,all_13_weeks,702,234.91,415.93,8.47,0.1227
+Naive,family,PREPARED FOODS,all_13_weeks,702,59.79,85.35,9.46,0.1559
+Seasonal Naive,family,PREPARED FOODS,all_13_weeks,702,193.33,300.39,30.6,0.9829
+LightGBM,family,PREPARED FOODS,all_13_weeks,702,128.12,180.0,20.28,0.2914
+Naive,family,PRODUCE,all_13_weeks,702,1027.33,1677.93,6.14,0.0977
+Seasonal Naive,family,PRODUCE,all_13_weeks,702,1836.63,4984.32,10.98,1.4294
+LightGBM,family,PRODUCE,all_13_weeks,702,1144.03,1838.46,6.84,0.0955
+Naive,family,SCHOOL AND OFFICE SUPPLIES,all_13_weeks,702,98.45,441.48,117.6,1.9346
+Seasonal Naive,family,SCHOOL AND OFFICE SUPPLIES,all_13_weeks,702,75.01,421.99,89.59,1.3277
+LightGBM,family,SCHOOL AND OFFICE SUPPLIES,all_13_weeks,702,144.54,449.79,172.65,2.655
+Naive,family,SEAFOOD,all_13_weeks,702,25.95,43.17,17.87,0.499
+Seasonal Naive,family,SEAFOOD,all_13_weeks,702,34.92,54.35,24.05,0.7804
+LightGBM,family,SEAFOOD,all_13_weeks,702,52.23,93.73,35.97,0.8361

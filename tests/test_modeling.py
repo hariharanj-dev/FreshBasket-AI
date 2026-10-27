@@ -168,12 +168,19 @@ def test_forecast_13_weeks_dates_and_counts():
     # Valid prediction intervals and uncertainty bounds
     for col in ["lower_bound_80", "upper_bound_80", "lower_bound_95", "upper_bound_95", "uncertainty_range_80", "uncertainty_range_95"]:
         assert col in df_fc.columns
+    for standard_col in ["date", "market_id", "sku_id", "forecast", "uncertainty"]:
+        assert standard_col in df_fc.columns, f"Required standard deliverable column '{standard_col}' missing"
     assert (df_fc["lower_bound_80"] >= 0).all()
     assert (df_fc["lower_bound_95"] >= 0).all()
     assert (df_fc["upper_bound_80"] >= df_fc["lower_bound_80"]).all()
     assert (df_fc["upper_bound_95"] >= df_fc["lower_bound_95"]).all()
     assert (df_fc["upper_bound_95"] >= df_fc["upper_bound_80"]).all()
     assert (df_fc["lower_bound_80"] >= df_fc["lower_bound_95"]).all()
+    assert (df_fc["forecast"] == df_fc["predicted_sales"]).all()
+    assert (df_fc["date"] == df_fc["week_start_date"]).all()
+    assert (df_fc["market_id"] == df_fc["store_nbr"]).all()
+    assert (df_fc["sku_id"] == df_fc["family"]).all()
+
 
     # No duplicate business keys in forecast
     dups = df_fc.duplicated(subset=["week_start_date", "store_nbr", "family"]).sum()

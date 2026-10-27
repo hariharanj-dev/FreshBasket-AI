@@ -1,6 +1,6 @@
 # FreshBasket AI - Feature Ablation & Predictive Utility Study 🔬📉
 
-**Generated On:** 2026-10-27 17:32:16
+**Generated On:** 2026-10-27 20:09:43
 **Evaluation Window:** 13-Week Holdout Backtest (`2017-05-15` to `2017-08-13`)
 **Series Evaluated:** 1,782 Time Series ($54 \text{ stores} \times 33 \text{ product families}$)
 **Total Evaluated Observations:** 23,166 store-family-week instances

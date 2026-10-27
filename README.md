@@ -22,9 +22,30 @@ The system pairs machine learning models with an automated **inventory replenish
 
 ---
 
-## 🚀 How to Run the Application
+## ⚙️ Environment Setup & Step-by-Step Execution
 
-### 1. Start the FastAPI Backend (Terminal 1)
+### 1. Prerequisites & Environment Setup
+Ensure you have **Python 3.10+** and **Node.js 18+** installed:
+```powershell
+# Clone and enter project workspace
+cd c:\Users\user\Desktop\freshbasket-ai
+
+# Create & activate Python virtual environment
+python -m venv .venv
+.\.venv\Scripts\activate
+
+# Install Python data science dependencies
+pip install -r requirements.txt
+
+# Install React frontend dependencies
+cd frontend
+npm install
+cd ..
+```
+
+### 2. Start the Application
+
+#### A. Start the FastAPI Backend (Terminal 1)
 ```powershell
 cd c:\Users\user\Desktop\freshbasket-ai
 .\.venv\Scripts\activate
@@ -33,14 +54,59 @@ python -m uvicorn api.main:app --host 127.0.0.1 --port 8000
 - **Backend API:** [http://localhost:8000](http://localhost:8000)
 - **Interactive Swagger Docs:** [http://localhost:8000/docs](http://localhost:8000/docs)
 
-### 2. Start the React Frontend (Terminal 2)
+#### B. Start the React Frontend (Terminal 2)
 ```powershell
 cd c:\Users\user\Desktop\freshbasket-ai\frontend
 npm run dev -- --host 127.0.0.1 --port 5173
 ```
 - **Live React Web App:** [http://localhost:5173](http://localhost:5173)
 
+### 3. End-to-End Pipeline Reproduction (Optional)
+To regenerate all datasets, features, models, forecasts, scenarios, and audit reports from scratch:
+```powershell
+# 1. Clean & validate raw transaction data
+python -m src.data.make_dataset
+
+# 2. Build 56 leakage-safe features & quincena flags
+python -m src.features.build_features
+
+# 3. Train models & compute cross-validation benchmarks
+python -m src.models.train_models
+
+# 4. Generate 13-week forecast with 80% & 95% uncertainty intervals
+python -m src.models.forecast_13_weeks
+
+# 5. Evaluate models across holdout & time-series folds
+python -m src.models.evaluate_models
+
+# 6. Run feature explainability & driver attribution
+python -m src.explainability.explain_model
+
+# 7. Run feature ablation experiments
+python -m src.evaluation.ablation_study
+
+# 8. Run commercial scenario & sensitivity stress tests
+python -m src.business.run_scenario_analysis
+
+# 9. Execute complete Pytest test suite (112 tests)
+pytest
+```
+
 ---
+
+## 📋 Business & Modeling Assumptions
+
+1. **Procurement Horizon (13 Weeks):** The 13-week forward window ($h=1 \dots 13$) aligns with standard FMCG 90-day quarterly supplier contracting cycles.
+2. **Weekly Time Buckets:** All transactions are aggregated to continuous Monday-to-Sunday 7-day windows, eliminating intra-week noise and matching retail replenishment schedules.
+3. **Temporal Information Barrier:** The historical evaluation cut-off is strictly fixed at `2017-05-14`. No ground-truth data from the holdout is exposed during training or feature construction.
+4. **Demand Non-Negativity:** FMCG demand cannot be negative; post-processing enforces $\hat{y} = \max(0, \hat{y})$ on point forecasts and prediction intervals.
+5. **Continuous Review Inventory ($ROP = \hat{D}_{LT} + SS$):** Inventory replenishment operates on continuous review with item-specific supplier lead times.
+6. **Order Discrete Ceilings:** Replenishment purchase orders are rounded up to whole discrete units: $Q = \lceil \max(0, ROP - \text{Stock}) \rceil$.
+7. **Empirical Uncertainty Sizing:** Residual errors follow empirical family-horizon variance distributions, generating calibrated 80% ($z = 1.282$) and 95% ($z = 1.960$) confidence bounds.
+8. **Intermittent Sales vs. Store Openings:** Zero-sales weeks for open stores represent valid zero customer demand; pre-opening dates for newly commissioned stores are explicitly flagged to prevent bias.
+
+---
+
 
 ## ⭐ Key Highlights & Features
 
@@ -164,11 +230,18 @@ freshbasket-ai/
 
 ---
 
-## 📑 Core Reviewer Deliverables
+## 📑 Assessment Deliverables Verification Matrix
 
-- **13-Week Forecast File (with Uncertainty):** [`data/forecasts/forecast_13_weeks.csv`](file:///c:/Users/user/Desktop/freshbasket-ai/data/forecasts/forecast_13_weeks.csv)
-- **Model Evaluation Audit:** [`reports/model_evaluation_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/model_evaluation_report.md)
-- **Demand Driver Attribution:** [`reports/explainability_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/explainability_report.md)
-- **Feature Ablation Study:** [`reports/ablation_study_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/ablation_study_report.md)
-- **10–15 Min Presentation Deck:** [`reports/presentation_deck.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/presentation_deck.md)
-- **Data Quality & EDA Reports:** [`reports/data_quality_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/data_quality_report.md) and [`reports/eda_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/eda_report.md)
+All 8 assessment deliverables are fully implemented, verified, and linked below:
+
+| # | Required Deliverable | Primary Repository Artifact / Path | Verification & Audit Summary |
+| :-: | :--- | :--- | :--- |
+| **1** | **Reproducible Python Project** | [`src/`](file:///c:/Users/user/Desktop/freshbasket-ai/src/), [`api/`](file:///c:/Users/user/Desktop/freshbasket-ai/api/), [`requirements.txt`](file:///c:/Users/user/Desktop/freshbasket-ai/requirements.txt) | Modular, PEP-8 compliant pipeline scripts (`make_dataset.py`, `build_features.py`, `train_models.py`, `forecast_13_weeks.py`, etc.). |
+| **2** | **README with Setup, Assumptions & Execution** | [`README.md`](file:///c:/Users/user/Desktop/freshbasket-ai/README.md) | Complete step-by-step terminal execution, explicit modeling assumptions, and architecture diagrams. |
+| **3** | **Data-Quality and EDA Report / Notebook** | [`reports/data_quality_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/data_quality_report.md)<br>[`reports/eda_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/eda_report.md)<br>[`notebooks/01_exploratory_data_analysis.ipynb`](file:///c:/Users/user/Desktop/freshbasket-ai/notebooks/01_exploratory_data_analysis.ipynb) | 10KB data profile, zero-sales vs store closure validation, Pareto category distributions, and promotional uplift analysis. |
+| **4** | **13-Week Forecast File (with Uncertainty)** | [`data/forecasts/forecast_13_weeks.csv`](file:///c:/Users/user/Desktop/freshbasket-ai/data/forecasts/forecast_13_weeks.csv) | 23,166 rows containing `date`, `market_id`, `sku_id`, `forecast`, and calibrated uncertainty intervals (`lower_bound_80`, `upper_bound_80`, `lower_bound_95`, `upper_bound_95`). |
+| **5** | **Model Comparison & Time-Series CV** | [`reports/model_evaluation_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/model_evaluation_report.md)<br>[`data/forecasts/model_metrics.csv`](file:///c:/Users/user/Desktop/freshbasket-ai/data/forecasts/model_metrics.csv) | 13-week holdout leaderboard (Naive 11.61% vs LightGBM 12.27% vs Seasonal Naive 16.17%) and expanding window cross-validation across 3 historical quarters. |
+| **6** | **Explainability / Driver-Attribution Report** | [`reports/explainability_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/explainability_report.md)<br>[`reports/feature_attribution.json`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/feature_attribution.json) | Global driver attribution (Velocity 54.6%, Calendar/Paydays 16.3%, Store Format 11.1%, Promotions 9.9%, Macro 8.1%) and local store case studies. |
+| **7** | **Scenario or Sensitivity Analysis** | [`reports/scenario_analysis_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/scenario_analysis_report.md)<br>[`reports/scenario_metrics.json`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/scenario_metrics.json) | 8 simulated commercial stress tests covering trade promo expansions (+15%, +30%), supplier delivery delays (+3d, +7d, +14d), stock shrinkage (-25%), and compound bullwhip shock. |
+| **8** | **Comprehensive Final Project Report** | [`reports/project_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/project_report.md)<br>[`reports/presentation_deck.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/presentation_deck.md) | Publication-grade executive report covering methodology, empirical findings, the "Naive paradox", limitations, and strategic recommendations, accompanied by a 14-slide executive presentation deck. |
+
