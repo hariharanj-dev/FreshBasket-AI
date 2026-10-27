@@ -7,7 +7,9 @@
 [![React 19](https://img.shields.io/badge/React-19.3+-61DAFB.svg)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-8.3+-646CFF.svg)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4+-38B2AC.svg)](https://tailwindcss.com/)
-[![LightGBM](https://img.shields.io/badge/Model-LightGBM%20GBDT-brightgreen.svg)](https://lightgbm.readthedocs.io/)
+[![Naive Baseline](https://img.shields.io/badge/Model-Naive%20Baseline%20(11.61%25%20WAPE)-brightgreen.svg)](#3--audited-multi-model-benchmark)
+[![LightGBM](https://img.shields.io/badge/Model-LightGBM%20GBDT%20(12.27%25%20WAPE)-blueviolet.svg)](https://lightgbm.readthedocs.io/)
+[![Seasonal Naive](https://img.shields.io/badge/Model-Seasonal%20Naive%20Lag--52%20(16.17%25%20WAPE)-orange.svg)](#3--audited-multi-model-benchmark)
 [![Tests Passing](https://img.shields.io/badge/Tests-112%2F112%20Passing-success.svg)](file:///c:/Users/user/Desktop/freshbasket-ai/tests/)
 
 ---
