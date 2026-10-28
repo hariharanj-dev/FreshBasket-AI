@@ -4,6 +4,7 @@
 **Presenter:** Data Science Intern / Advanced Analytics Team  
 **Audience:** Executive Leadership, Category Directors, VP of Supply Chain  
 **Duration:** 12–15 Minutes (14 Slides, ~1 Minute per Slide)  
+**Recorded Presentation Video:** [Watch 10–15 Minute Video Presentation (Google Drive)](https://drive.google.com/file/d/1VA31He0BFewhpDQUotFOQDWqv4wuwfW2/view?usp=sharing)  
 **Artifacts Available:** Live Web Application (`localhost:5173`), FastAPI Engine (`localhost:8000`), Automated Audit Reports (`reports/`)
 
 ---

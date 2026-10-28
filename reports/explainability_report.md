@@ -1,6 +1,6 @@
 # FreshBasket AI - Demand Driver Attribution & Model Explainability Report 🧠📊
 
-**Generated On:** 2026-10-27 20:09:48
+**Generated On:** 2026-10-28 13:12:09
 **Model Architecture:** LightGBM Recursive Autoregressive GBDT Forecaster
 **Evaluation Scope:** 1,782 SKU-Market Time Series (54 Stores × 33 FMCG Product Families)
 

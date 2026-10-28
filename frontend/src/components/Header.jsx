@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, RotateCcw, Sparkles, ShieldCheck } from 'lucide-react';
+import { Menu, RotateCcw, Sparkles, ShieldCheck, Video, ExternalLink } from 'lucide-react';
 import { useFilters } from '../context/FilterContext';
 
 export const Header = ({ title, subtitle, onOpenSidebar, onRefresh, isRefreshing }) => {
@@ -47,6 +47,19 @@ export const Header = ({ title, subtitle, onOpenSidebar, onRefresh, isRefreshing
               </span>
             )}
           </div>
+
+          {/* Video Presentation Link */}
+          <a
+            href="https://drive.google.com/file/d/1VA31He0BFewhpDQUotFOQDWqv4wuwfW2/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center space-x-1.5 px-2.5 sm:px-3 py-1.5 bg-rose-50 hover:bg-rose-100 text-rose-700 text-xs font-semibold rounded-lg border border-rose-200 transition-colors shadow-2xs hover:border-rose-300"
+            title="Watch 10-15 minute executive presentation video on Google Drive"
+          >
+            <Video className="w-3.5 h-3.5 text-rose-600" />
+            <span className="hidden sm:inline">Video Defense</span>
+            <ExternalLink className="w-3 h-3 text-rose-500 opacity-80" />
+          </a>
 
           {/* Refresh Action */}
           {onRefresh && (

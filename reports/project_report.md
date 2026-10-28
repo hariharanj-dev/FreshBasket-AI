@@ -4,6 +4,7 @@
 **Date:** October 2026  
 **Document Classification:** Technical & Strategic Evaluation Report (Assessment 1 Deliverable)  
 **Authors:** Senior Data Science & Supply Chain Architecture Team  
+**Video Presentation Recording:** [Watch 10–15 Minute Executive Presentation (Google Drive)](https://drive.google.com/file/d/1VA31He0BFewhpDQUotFOQDWqv4wuwfW2/view?usp=sharing)  
 
 ---
 

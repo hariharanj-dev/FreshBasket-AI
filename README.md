@@ -11,6 +11,12 @@
 [![LightGBM](https://img.shields.io/badge/Model-LightGBM%20GBDT%20(12.27%25%20WAPE)-blueviolet.svg)](https://lightgbm.readthedocs.io/)
 [![Seasonal Naive](https://img.shields.io/badge/Model-Seasonal%20Naive%20Lag--52%20(16.17%25%20WAPE)-orange.svg)](#3--audited-multi-model-benchmark)
 [![Tests Passing](https://img.shields.io/badge/Tests-112%2F112%20Passing-success.svg)](file:///c:/Users/user/Desktop/freshbasket-ai/tests/)
+[![Video Presentation](https://img.shields.io/badge/Video-10--15%20Min%20Presentation%20(Google%20Drive)-red.svg?logo=google-drive)](https://drive.google.com/file/d/1VA31He0BFewhpDQUotFOQDWqv4wuwfW2/view?usp=sharing)
+
+> [!TIP]
+> 🎥 **Executive Video Presentation (10–15 Minutes):**  
+> **[Watch the Complete Defense & Project Walkthrough on Google Drive](https://drive.google.com/file/d/1VA31He0BFewhpDQUotFOQDWqv4wuwfW2/view?usp=sharing)**  
+> Accompanied by the slide-by-slide speaker notes in [`reports/presentation_deck.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/presentation_deck.md).
 
 ---
 
@@ -232,7 +238,7 @@ freshbasket-ai/
 
 ## 📑 Assessment Deliverables Verification Matrix
 
-All 8 assessment deliverables are fully implemented, verified, and linked below:
+All 9 assessment deliverables are fully implemented, verified, and linked below:
 
 | # | Required Deliverable | Primary Repository Artifact / Path | Verification & Audit Summary |
 | :-: | :--- | :--- | :--- |
@@ -243,5 +249,6 @@ All 8 assessment deliverables are fully implemented, verified, and linked below:
 | **5** | **Model Comparison & Time-Series CV** | [`reports/model_evaluation_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/model_evaluation_report.md)<br>[`data/forecasts/model_metrics.csv`](file:///c:/Users/user/Desktop/freshbasket-ai/data/forecasts/model_metrics.csv) | 13-week holdout leaderboard (Naive 11.61% vs LightGBM 12.27% vs Seasonal Naive 16.17%) and expanding window cross-validation across 3 historical quarters. |
 | **6** | **Explainability / Driver-Attribution Report** | [`reports/explainability_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/explainability_report.md)<br>[`reports/feature_attribution.json`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/feature_attribution.json) | Global driver attribution (Velocity 54.6%, Calendar/Paydays 16.3%, Store Format 11.1%, Promotions 9.9%, Macro 8.1%) and local store case studies. |
 | **7** | **Scenario or Sensitivity Analysis** | [`reports/scenario_analysis_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/scenario_analysis_report.md)<br>[`reports/scenario_metrics.json`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/scenario_metrics.json) | 8 simulated commercial stress tests covering trade promo expansions (+15%, +30%), supplier delivery delays (+3d, +7d, +14d), stock shrinkage (-25%), and compound bullwhip shock. |
-| **8** | **Comprehensive Final Project Report** | [`reports/project_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/project_report.md)<br>[`reports/presentation_deck.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/presentation_deck.md) | Publication-grade executive report covering methodology, empirical findings, the "Naive paradox", limitations, and strategic recommendations, accompanied by a 14-slide executive presentation deck. |
+| **8** | **Comprehensive Final Project Report** | [`reports/project_report.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/project_report.md) | Publication-grade executive report covering methodology, empirical findings, the "Naive paradox", limitations, and strategic supply chain recommendations. |
+| **9** | **10–15 Minute Presentation & Video Defense** | [**🎥 Watch Video (Google Drive)**](https://drive.google.com/file/d/1VA31He0BFewhpDQUotFOQDWqv4wuwfW2/view?usp=sharing)<br>[`reports/presentation_deck.md`](file:///c:/Users/user/Desktop/freshbasket-ai/reports/presentation_deck.md) | 14-slide executive presentation deck with slide-by-slide speaker scripts, paired with the full 10–15 minute recorded executive defense video. |
 
